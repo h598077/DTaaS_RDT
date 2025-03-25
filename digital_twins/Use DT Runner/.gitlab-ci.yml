@@ -1,9 +1,0 @@
-stages:
-    - execute
-
-execute_hello-world:
-    stage: execute
-    script:
-        - curl -X POST -H "Content-Type: application/json" http://localhost:5000 -d '{ "name": "execute" }'
-    tags:
-        - $RunnerTag
