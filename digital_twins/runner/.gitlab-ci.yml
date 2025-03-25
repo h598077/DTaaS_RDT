@@ -6,6 +6,8 @@ execute_runner:
     script:
         - cd digital_twins/runner
         - chmod +x lifecycle/execute
+        - pwd
+        - ls -lR
         - lifecycle/execute
     tags:
         - $RunnerTag
