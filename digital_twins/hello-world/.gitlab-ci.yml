@@ -2,6 +2,7 @@ stages:
     - create
     - execute
     - clean
+    - execute-docker
 
 create_hello-world:
     stage: create
@@ -28,5 +29,21 @@ clean_hello-world:
         - chmod +x lifecycle/terminate
         - chmod +x lifecycle/clean
         - lifecycle/terminate
+    tags:
+        - $RunnerTag
+
+execute_hello-world:
+    stage: execute
+    script:
+        - cd digital_twins/hello-world
+        - chmod +x lifecycle/execute
+        - lifecycle/execute
+    tags:
+        - $RunnerTag
+
+execute_docker:
+    stage: execute-docker
+    script:
+        - docker run hello-world
     tags:
         - $RunnerTag
