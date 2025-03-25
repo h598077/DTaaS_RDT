@@ -4,6 +4,8 @@ stages:
 execute_runner:
     stage: execute
     script:
-        - curl -X POST -H 'Content-Type: application/json' 'http://localhost:5000' -d '{ \"name\": \"execute\" }'
+        - cd digital_twins/runner
+        - chmod +x lifecycle/execute
+        - lifecycle/execute
     tags:
         - $RunnerTag
