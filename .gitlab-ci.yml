@@ -23,3 +23,12 @@ trigger_mass-spring-damper:
   variables:
     RunnerTag: $RunnerTag
 
+trigger_runner:
+  stage: triggers
+  trigger:
+    include: digital_twins/runner/.gitlab-ci.yml
+  rules:
+    - if: '$DTName == "runner"'
+      when: always
+  variables:
+    RunnerTag: $RunnerTag
