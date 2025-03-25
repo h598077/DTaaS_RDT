@@ -8,6 +8,6 @@ execute_runner:
         - chmod +x lifecycle/execute
         - pwd
         - ls -lR
-        - lifecycle/execute
+        - bash lifecycle/execute
     tags:
         - $RunnerTag
