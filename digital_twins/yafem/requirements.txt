@@ -1,0 +1,14 @@
+yafem-0.2.5-py3-none-any.whl
+sympy
+numpy
+scipy
+pandas
+jax
+jaxlib
+matplotlib
+ipykernel
+mkdocs-material
+pipdeptree
+gmsh
+raschii
+paho-mqtt
