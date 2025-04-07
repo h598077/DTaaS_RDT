@@ -1,0 +1,21 @@
+stages:
+    - install
+    - execute
+
+install_shm-devops:
+    stage: install
+    script:
+        - cd digital_twins/shm-devops
+        - chmod +x lifecycle/install
+        - lifecycle/install
+    tags:
+        - $RunnerTag
+
+execute_shm-devops:
+    stage: execute
+    script:
+        - cd digital_twins/shm-devops
+        - chmod +x lifecycle/execute
+        - bash lifecycle/execute
+    tags:
+        - $RunnerTag
