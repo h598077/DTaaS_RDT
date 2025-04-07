@@ -1,0 +1,13 @@
+image: ubuntu:24.04
+
+stages:
+    - execute
+
+execute_yafem:
+    stage: execute
+    script:
+        - cd digital_twins/yafem
+        - chmod +x lifecycle/execute
+        - bash lifecycle/execute
+    tags:
+        - $RunnerTag

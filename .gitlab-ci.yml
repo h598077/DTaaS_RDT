@@ -42,3 +42,13 @@ trigger_shm-devops:
       when: always
   variables:
     RunnerTag: $RunnerTag
+
+trigger_yafem:
+  stage: triggers
+  trigger:
+    include: digital_twins/yafem/.gitlab-ci.yml
+  rules:
+    - if: '$DTName == "yafem"'
+      when: always
+  variables:
+    RunnerTag: $RunnerTag

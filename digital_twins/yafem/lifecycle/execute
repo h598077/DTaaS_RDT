@@ -1,0 +1,12 @@
+#!/bin/bash
+apt update
+apt install -y sudo
+
+sudo apt-get update
+sudo apt-get install -y python3-dev
+sudo apt-get install -y python3-pip
+sudo apt-get install -y python3-venv
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python3 fun_cantilever_beam_demo.py
