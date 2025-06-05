@@ -6,7 +6,7 @@ stages:
 execute_yafem:
     stage: execute
     script:
-        - cd digital_twins/yafem
+        - cd digital_twins/yafem-demo
         - chmod +x lifecycle/execute
         - bash lifecycle/execute
     tags:
