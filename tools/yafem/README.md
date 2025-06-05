@@ -1,0 +1,1 @@
+YaFEM is a short-form for Yet another Finite Element Modeling software. It is an open-source software being developed by the research group headed by Prof. Giuseppe Abbiati, Aarhus University.

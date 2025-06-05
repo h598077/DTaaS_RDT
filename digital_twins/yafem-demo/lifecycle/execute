@@ -8,5 +8,6 @@ sudo apt-get install -y python3-pip > /dev/null 2>&1
 sudo apt-get install -y python3-venv > /dev/null 2>&1
 python3 -m venv .venv > /dev/null 2>&1
 source .venv/bin/activate > /dev/null 2>&1
+cp ../../tools/yafem/* .
 pip install -r requirements.txt
 python3 fun_cantilever_beam_demo.py
