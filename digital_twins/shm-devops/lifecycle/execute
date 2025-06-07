@@ -4,8 +4,8 @@ source .venv/bin/activate
 pip install poetry
 poetry lock
 poetry install
-ls -al
-python .\src\examples\example.py accelerometers
-python .\src\examples\example.py align-readings
-python .\src\examples\example.py oma-and-print
+ls -al src/examples
+python src/examples/example.py accelerometers
+python src/examples/example.py align-readings
+python src/examples/example.py oma-and-print
 python src/examples/example.py model-update-local-sysid
