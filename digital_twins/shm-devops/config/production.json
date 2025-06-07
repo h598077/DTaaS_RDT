@@ -2,8 +2,8 @@
     "MQTT": {
         "host": "dtl-server-2.st.lab.au.dk",
         "port": 8090,
-        "userId": "hbk8",
-        "password": "hbkwebsdvkw",
+        "userId": "hbk7",
+        "password": "hbksdgnwrltwa",
         "ClientID": "test_client_id",
         "QoS": 1,
         "TopicsToSubscribe": [
