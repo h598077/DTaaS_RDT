@@ -21,9 +21,9 @@ def read_accelerometers(config_path):
         accelerometer.data_map.clear()
 
     time.sleep(1)
-    with accelerometer.acquire_lock():
-        for key, fifo in sorted(accelerometer.data_map.items()):
-            print(f"Key: {key} -> Data: {list(fifo)}\n")
+    #with accelerometer.acquire_lock():
+    #    for key, fifo in sorted(accelerometer.data_map.items()):
+    #        print(f"Key: {key} -> Data: {list(fifo)}\n")
     _, data = accelerometer.read(requested_samples=256)
 
     mqtt_client.loop_stop()
