@@ -1,15 +1,15 @@
 image: ubuntu:24.04
 
 stages:
-    - create
+    - install
     - execute
 
-create_shm-devops:
+install_shm-devops:
     stage: create
     script:
         - cd digital_twins/shm-devops
-        - chmod +x lifecycle/create
-        - bash lifecycle/create
+        - chmod +x lifecycle/install
+        - bash lifecycle/install
     tags:
         - $RunnerTag
 
