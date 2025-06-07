@@ -5,7 +5,7 @@ stages:
     - execute
 
 install_shm-devops:
-    stage: create
+    stage: install
     script:
         - cd digital_twins/shm-devops
         - chmod +x lifecycle/install
