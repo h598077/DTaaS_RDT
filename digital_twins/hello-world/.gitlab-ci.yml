@@ -40,10 +40,3 @@ execute_hello-world:
         - lifecycle/execute
     tags:
         - $RunnerTag
-
-execute_docker:
-    stage: execute-docker
-    script:
-        - docker run hello-world
-    tags:
-        - $RunnerTag
