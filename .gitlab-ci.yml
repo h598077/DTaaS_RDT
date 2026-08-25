@@ -23,16 +23,6 @@ trigger_mass-spring-damper:
   variables:
     RunnerTag: $RunnerTag
 
-trigger_shm-devops:
-  stage: triggers
-  trigger:
-    include: digital_twins/shm-devops/.gitlab-ci.yml
-  rules:
-    - if: '$DTName == "shm-devops"'
-      when: always
-  variables:
-    RunnerTag: $RunnerTag
-
 trigger_yafem-demo:
   stage: triggers
   trigger:
