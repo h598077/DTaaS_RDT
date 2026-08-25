@@ -22,13 +22,3 @@ trigger_mass-spring-damper:
       when: always
   variables:
     RunnerTag: $RunnerTag
-
-trigger_yafem-demo:
-  stage: triggers
-  trigger:
-    include: digital_twins/yafem-demo/.gitlab-ci.yml
-  rules:
-    - if: '$DTName == "yafem-demo"'
-      when: always
-  variables:
-    RunnerTag: $RunnerTag
