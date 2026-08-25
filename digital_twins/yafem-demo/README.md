@@ -1,1 +1,0 @@
-Execute YaFEM demo in devops pipeline of DTaaS.
