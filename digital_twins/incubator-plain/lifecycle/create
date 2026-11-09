@@ -6,13 +6,14 @@ set -e  # Exit on command failure
 apt update
 apt install -y sudo
 
-# Base relative paths off lifecycle dir
-cd "$(dirname "${BASH_SOURCE[0]}")"
 
-pwd
+
+
+LIFECYCLE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+INCUBATOR_PATH="${LIFECYCLE_DIR}/../Data/incubator"
 
 # Go to incubator path (relative to lifecycle dir)
-: ${INCUBATOR_PATH:=digital_twins/incubator-plain/Data/incubator}
 echo "Using INCUBATOR_PATH: ${INCUBATOR_PATH}"      #Debug path
 cd "${INCUBATOR_PATH}"
 
