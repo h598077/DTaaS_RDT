@@ -11,10 +11,10 @@ incubator-rdt:
   script:
     - cd digital_twins/incubator-rdt
     - chmod +x lifecycle/create 
-    - lifecycle/create
-    - chmod +x lifecycle/execute 
-    - lifecycle/execute
-    - chmod +x lifecycle/execute2
-    - lifecycle/execute2 
+    - lifecycle/create 
+    - chmod +x lifecycle/execute lifecycle/execute2
+    - lifecycle/execute &
+    - lifecycle/execute2 &
+    - wait
 
 
