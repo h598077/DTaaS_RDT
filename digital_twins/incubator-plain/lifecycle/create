@@ -4,7 +4,7 @@ set -e  # Exit on command failure
 
 
 apt update
-apt install sudo
+apt install -y sudo
 
 echo "Checking dependencies"
 
