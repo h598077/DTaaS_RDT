@@ -26,6 +26,6 @@ dotnet build \
   -p:IntermediateOutputPath=/tmp/smartnode-obj/ \
   -p:DisableFastUpToDateCheck=true
 
-export AU_INCUBATOR_RABBITMQ_HOST_NAME=localhost  # or your actual RabbitMQ host ip
+export AU_INCUBATOR_RABBITMQ_HOST_NAME=localhost  #   RabbitMQ host ip
 
 dotnet bin/Debug/net8.0/SmartNode.dll --appsettings appsettings-incubator.json

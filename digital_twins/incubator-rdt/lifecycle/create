@@ -99,6 +99,7 @@ influxd > /tmp/influxd.log 2>&1 &
 
 sleep 2
 echo "Configured influx"
+
 # Configure
 influx setup \
   --username incubator \

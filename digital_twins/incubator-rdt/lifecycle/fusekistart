@@ -1,4 +1,6 @@
 # --- 1. Start Fuseki
-cd /workspace/RDT/Workspace2/Data/ruleless-digital-twins/devcontainer
+LIFECYCLE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+devcontainer="${LIFECYCLE_DIR}/../Data/ruleless-digital-twins/devcontainer"
+cd "${devcontainer}"
 bash start-fuseki.sh
 echo "fuseki startet"
