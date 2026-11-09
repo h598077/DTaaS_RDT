@@ -54,9 +54,9 @@ build_fmu() {
 
     rm -rf "$BUILD_DIR"
 }
-build_fmu "${FMU_DIR}/../Fakepool-FMU" "Fakepool.fmu"
-build_fmu "${FMU_DIR}/../Nordpool-FMU" "NordPool.fmu"
-build_fmu "${FMU_DIR}/../Yr-Weather-FMU" "YrWeather.fmu"
+build_fmu "${FMU_DIR}/Fakepool-FMU" "Fakepool.fmu"
+build_fmu "${FMU_DIR}/Nordpool-FMU" "NordPool.fmu"
+build_fmu "${FMU_DIR}/Yr-Weather-FMU" "YrWeather.fmu"
 
 
 
