@@ -14,11 +14,10 @@ incubator-rdt:
     - lifecycle/create 
     - chmod +x lifecycle/executefmu
     - lifecycle/executefmu
-    - chmod +x lifecycle/execute 
-    - lifecycle/execute
+    - chmod +x lifecycle/execute lifecycle/execute2
+    - lifecycle/execute &
     - EXECUTE_PID=$!
-    - sleep 10 
-    - chmod +x lifecycle/execute2
+    - sleep 10
     - lifecycle/execute2 
 
 
