@@ -12,9 +12,7 @@ incubator-rdt:
     - cd digital_twins/incubator-rdt
     - chmod +x lifecycle/create 
     - lifecycle/create 
-    - chmod +x lifecycle/execute lifecycle/execute2
-    - lifecycle/execute &
-    - lifecycle/execute2 &
-    - wait
+    - chmod +x lifecycle/executefmu
+    - lifecycle/executefmu
 
 

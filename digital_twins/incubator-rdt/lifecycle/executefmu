@@ -1,0 +1,62 @@
+#!/bin/bash
+# Run dotnet tasks (i) Re build all OMC FMUs  (ii) Buiild all Python FMU|s
+
+
+#(i)-------------------------------------------------------------------
+DOTNET_PATH="/tmp/dotnet"
+
+export DOTNET_ROOT="$DOTNET_PATH"
+export PATH="$DOTNET_ROOT:$PATH"
+
+dotnet --version
+python3 --version
+
+
+# Get the directory containing Execute
+# SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+# Navigate to Model/Source relative to the workspace
+#c d "$SCRIPT_DIR/../Model/Source"
+
+
+LIFECYCLE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+# Define the source and temporary build directories
+SOURCE_DIR="${LIFECYCLE_DIR}/../Data/ruleless-digital-twins\SmartNode\Implementations\FMUs\Source"
+BUILD_DIR="$(mktemp -d /tmp/openmodelica-build.XXXXXX)"
+FMU_DIR ="${LIFECYCLE_DIR}/../Data/ruleless-digital-twins\SmartNode\Implementations\FMUs"
+
+# Copy the project to the Linux temporary filesystem
+cp -R "$SOURCE_DIR/." "$BUILD_DIR/"
+
+# Build from the temporary directory
+cd "$BUILD_DIR"
+make clean
+make all
+
+cp au_incubator.fmu roomM370.fmu "$SOURCE_DIR/"
+
+
+#(ii)-------------------------------------------------------------------
+build_fmu() {
+    SOURCE_DIR="$1"
+    FMU_FILE="$2"
+    BUILD_DIR="$(mktemp -d "/tmp/fmu-build.XXXXXX")"
+
+    source /tmp/rdt-lifecycle-venv/bin/activate
+
+    cp -R "$SOURCE_DIR/." "$BUILD_DIR/"
+
+    cd "$BUILD_DIR"
+    make clean
+    make all
+
+    cp "$FMU_FILE" "$SOURCE_DIR/.."
+
+    rm -rf "$BUILD_DIR"
+}
+build_fmu "${FMU_DIR}/../Fakepool-FMU" "Fakepool.fmu"
+build_fmu "${FMU_DIR}/../Nordpool-FMU" "NordPool.fmu"
+build_fmu "${FMU_DIR}/../Yr-Weather-FMU" "YrWeather.fmu"
+
+
+
