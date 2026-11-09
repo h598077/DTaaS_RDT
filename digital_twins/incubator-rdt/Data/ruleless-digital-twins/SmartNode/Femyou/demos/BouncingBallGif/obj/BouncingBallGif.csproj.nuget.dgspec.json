@@ -1,0 +1,154 @@
+{
+  "format": 1,
+  "restore": {
+    "/workspaces/ruleless-digital-twins/SmartNode/Femyou/demos/BouncingBallGif/BouncingBallGif.csproj": {}
+  },
+  "projects": {
+    "/workspaces/ruleless-digital-twins/SmartNode/Femyou/demos/BouncingBallGif/BouncingBallGif.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/workspaces/ruleless-digital-twins/SmartNode/Femyou/demos/BouncingBallGif/BouncingBallGif.csproj",
+        "projectName": "BouncingBallGif",
+        "projectPath": "/workspaces/ruleless-digital-twins/SmartNode/Femyou/demos/BouncingBallGif/BouncingBallGif.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/workspaces/ruleless-digital-twins/SmartNode/Femyou/demos/BouncingBallGif/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/root/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/workspaces/ruleless-digital-twins/SmartNode/Femyou/src/Femyou.csproj": {
+                "projectPath": "/workspaces/ruleless-digital-twins/SmartNode/Femyou/src/Femyou.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AnimatedGif": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            },
+            "SkiaSharp": {
+              "target": "Package",
+              "version": "[2.88.8, )"
+            },
+            "SkiaSharp.NativeAssets.Linux": {
+              "target": "Package",
+              "version": "[2.88.8, )"
+            },
+            "SkiaSharp.Views.Desktop.Common": {
+              "target": "Package",
+              "version": "[2.88.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.320/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/workspaces/ruleless-digital-twins/SmartNode/Femyou/src/Femyou.csproj": {
+      "version": "0.4.0",
+      "restore": {
+        "projectUniqueName": "/workspaces/ruleless-digital-twins/SmartNode/Femyou/src/Femyou.csproj",
+        "projectName": "Femyou",
+        "projectPath": "/workspaces/ruleless-digital-twins/SmartNode/Femyou/src/Femyou.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/workspaces/ruleless-digital-twins/SmartNode/Femyou/src/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/root/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "NativeLibraryLoader": {
+              "target": "Package",
+              "version": "[1.0.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.320/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
