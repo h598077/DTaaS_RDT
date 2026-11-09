@@ -1,0 +1,26 @@
+﻿using Implementations.SimulatedTwinningTargets;
+using Logic.TTComponentInterfaces;
+
+namespace Implementations.Sensors.RoomM370
+{
+    public class DummyHumiditySensor : ISensor
+    {
+        private readonly DummyRoomM370 _dummyRoomM370;
+
+        public DummyHumiditySensor(string sensorName, string procedureName, DummyRoomM370 dummyRoomM370)
+        {
+            SensorName = sensorName;
+            ProcedureName = procedureName;
+            _dummyRoomM370 = dummyRoomM370;
+        }
+
+        public string SensorName { get; private set; }
+
+        public string ProcedureName { get; private set; }
+
+        public async Task<object> ObservePropertyValue(params object[] inputProperties)
+        {
+            return _dummyRoomM370.RoomHumidity;
+        }
+    }
+}
