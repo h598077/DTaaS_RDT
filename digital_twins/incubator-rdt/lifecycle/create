@@ -34,7 +34,8 @@ pip install -r requirements.txt
 DOTNET_PATH="/tmp/dotnet"
 
 mkdir -p "$DOTNET_PATH"
-
+apt-get update -y
+apt-get install -y wget
 # Download the official .NET installer
 wget -q https://dot.net/v1/dotnet-install.sh -O /tmp/dotnet-install.sh
 
