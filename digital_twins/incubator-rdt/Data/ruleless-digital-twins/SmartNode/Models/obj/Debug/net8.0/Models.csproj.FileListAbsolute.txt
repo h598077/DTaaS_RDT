@@ -1,0 +1,12 @@
+/workspaces/ruleless-digital-twins/SmartNode/Models/bin/Debug/net8.0/Models.deps.json
+/workspaces/ruleless-digital-twins/SmartNode/Models/bin/Debug/net8.0/Models.dll
+/workspaces/ruleless-digital-twins/SmartNode/Models/bin/Debug/net8.0/Models.pdb
+/workspaces/ruleless-digital-twins/SmartNode/Models/obj/Debug/net8.0/Models.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/ruleless-digital-twins/SmartNode/Models/obj/Debug/net8.0/Models.AssemblyInfoInputs.cache
+/workspaces/ruleless-digital-twins/SmartNode/Models/obj/Debug/net8.0/Models.AssemblyInfo.cs
+/workspaces/ruleless-digital-twins/SmartNode/Models/obj/Debug/net8.0/Models.csproj.CoreCompileInputs.cache
+/workspaces/ruleless-digital-twins/SmartNode/Models/obj/Debug/net8.0/Models.sourcelink.json
+/workspaces/ruleless-digital-twins/SmartNode/Models/obj/Debug/net8.0/Models.dll
+/workspaces/ruleless-digital-twins/SmartNode/Models/obj/Debug/net8.0/refint/Models.dll
+/workspaces/ruleless-digital-twins/SmartNode/Models/obj/Debug/net8.0/Models.pdb
+/workspaces/ruleless-digital-twins/SmartNode/Models/obj/Debug/net8.0/ref/Models.dll
