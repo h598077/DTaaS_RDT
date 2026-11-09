@@ -1,0 +1,174 @@
+is_global = true
+build_property.MSBuildProjectFullPath = /workspaces/ruleless-digital-twins/SmartNode/TestProject/TestProject.csproj
+build_property.XunitTestProjectAOT = false
+build_property.ThisAssemblyNamespace = 
+build_property.ThisAssemblyNamespace = 
+build_property.ThisAssemblyVisibility = 
+build_property.GitIsDirty = 1
+build_property.GitThisAssembly = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TestProject
+build_property.ProjectDir = /workspaces/ruleless-digital-twins/SmartNode/TestProject/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[/workspaces/ruleless-digital-twins/SmartNode/TestProject/IsDirtyString]
+build_metadata.Constant.ItemType = Constant
+build_metadata.Constant.Comment = 
+build_metadata.Constant.Value = true
+build_metadata.Constant.Type = 
+build_metadata.Constant.Root = Git
+build_metadata.Constant.RootComment = 
+
+[/workspaces/ruleless-digital-twins/SmartNode/TestProject/IsDirty]
+build_metadata.Constant.ItemType = Constant
+build_metadata.Constant.Comment = 
+build_metadata.Constant.Value = true
+build_metadata.Constant.Type = bool
+build_metadata.Constant.Root = Git
+build_metadata.Constant.RootComment = 
+
+[/workspaces/ruleless-digital-twins/SmartNode/TestProject/RepositoryUrl]
+build_metadata.Constant.ItemType = Constant
+build_metadata.Constant.Comment = 
+build_metadata.Constant.Value = https://github.com/ivanspajic/ruleless-digital-twins.git
+build_metadata.Constant.Type = 
+build_metadata.Constant.Root = Git
+build_metadata.Constant.RootComment = 
+
+[/workspaces/ruleless-digital-twins/SmartNode/TestProject/Branch]
+build_metadata.Constant.ItemType = Constant
+build_metadata.Constant.Comment = 
+build_metadata.Constant.Value = main
+build_metadata.Constant.Type = 
+build_metadata.Constant.Root = Git
+build_metadata.Constant.RootComment = 
+
+[/workspaces/ruleless-digital-twins/SmartNode/TestProject/Commit]
+build_metadata.Constant.ItemType = Constant
+build_metadata.Constant.Comment = 
+build_metadata.Constant.Value = a73caae
+build_metadata.Constant.Type = 
+build_metadata.Constant.Root = Git
+build_metadata.Constant.RootComment = 
+
+[/workspaces/ruleless-digital-twins/SmartNode/TestProject/Sha]
+build_metadata.Constant.ItemType = Constant
+build_metadata.Constant.Comment = 
+build_metadata.Constant.Value = a73caae08de4644cb65b5dd30b10711abd9d3976
+build_metadata.Constant.Type = 
+build_metadata.Constant.Root = Git
+build_metadata.Constant.RootComment = 
+
+[/workspaces/ruleless-digital-twins/SmartNode/TestProject/CommitDate]
+build_metadata.Constant.ItemType = Constant
+build_metadata.Constant.Comment = 
+build_metadata.Constant.Value = 2026-10-28T13:16:04+01:00
+build_metadata.Constant.Type = 
+build_metadata.Constant.Root = Git
+build_metadata.Constant.RootComment = 
+
+[/workspaces/ruleless-digital-twins/SmartNode/TestProject/Commits]
+build_metadata.Constant.ItemType = Constant
+build_metadata.Constant.Comment = 
+build_metadata.Constant.Value = 2
+build_metadata.Constant.Type = 
+build_metadata.Constant.Root = Git
+build_metadata.Constant.RootComment = 
+
+[/workspaces/ruleless-digital-twins/SmartNode/TestProject/Tag]
+build_metadata.Constant.ItemType = Constant
+build_metadata.Constant.Comment = 
+build_metadata.Constant.Value = v0.0.2-2-ga73caae
+build_metadata.Constant.Type = 
+build_metadata.Constant.Root = Git
+build_metadata.Constant.RootComment = 
+
+[/workspaces/ruleless-digital-twins/SmartNode/TestProject/BaseTag]
+build_metadata.Constant.ItemType = Constant
+build_metadata.Constant.Comment = 
+build_metadata.Constant.Value = v0.0.2
+build_metadata.Constant.Type = 
+build_metadata.Constant.Root = Git
+build_metadata.Constant.RootComment = 
+
+[/workspaces/ruleless-digital-twins/SmartNode/TestProject/BaseVersion.Major]
+build_metadata.Constant.ItemType = Constant
+build_metadata.Constant.Comment = 
+build_metadata.Constant.Value = 0
+build_metadata.Constant.Type = 
+build_metadata.Constant.Root = Git
+build_metadata.Constant.RootComment = 
+
+[/workspaces/ruleless-digital-twins/SmartNode/TestProject/BaseVersion.Minor]
+build_metadata.Constant.ItemType = Constant
+build_metadata.Constant.Comment = 
+build_metadata.Constant.Value = 0
+build_metadata.Constant.Type = 
+build_metadata.Constant.Root = Git
+build_metadata.Constant.RootComment = 
+
+[/workspaces/ruleless-digital-twins/SmartNode/TestProject/BaseVersion.Patch]
+build_metadata.Constant.ItemType = Constant
+build_metadata.Constant.Comment = 
+build_metadata.Constant.Value = 2
+build_metadata.Constant.Type = 
+build_metadata.Constant.Root = Git
+build_metadata.Constant.RootComment = 
+
+[/workspaces/ruleless-digital-twins/SmartNode/TestProject/SemVer.Major]
+build_metadata.Constant.ItemType = Constant
+build_metadata.Constant.Comment = 
+build_metadata.Constant.Value = 0
+build_metadata.Constant.Type = 
+build_metadata.Constant.Root = Git
+build_metadata.Constant.RootComment = 
+
+[/workspaces/ruleless-digital-twins/SmartNode/TestProject/SemVer.Minor]
+build_metadata.Constant.ItemType = Constant
+build_metadata.Constant.Comment = 
+build_metadata.Constant.Value = 0
+build_metadata.Constant.Type = 
+build_metadata.Constant.Root = Git
+build_metadata.Constant.RootComment = 
+
+[/workspaces/ruleless-digital-twins/SmartNode/TestProject/SemVer.Patch]
+build_metadata.Constant.ItemType = Constant
+build_metadata.Constant.Comment = 
+build_metadata.Constant.Value = 4
+build_metadata.Constant.Type = 
+build_metadata.Constant.Root = Git
+build_metadata.Constant.RootComment = 
+
+[/workspaces/ruleless-digital-twins/SmartNode/TestProject/SemVer.Label]
+build_metadata.Constant.ItemType = Constant
+build_metadata.Constant.Comment = 
+build_metadata.Constant.Value = 
+build_metadata.Constant.Type = 
+build_metadata.Constant.Root = Git
+build_metadata.Constant.RootComment = 
+
+[/workspaces/ruleless-digital-twins/SmartNode/TestProject/SemVer.DashLabel]
+build_metadata.Constant.ItemType = Constant
+build_metadata.Constant.Comment = 
+build_metadata.Constant.Value = 
+build_metadata.Constant.Type = 
+build_metadata.Constant.Root = Git
+build_metadata.Constant.RootComment = 
+
+[/workspaces/ruleless-digital-twins/SmartNode/TestProject/SemVer.Source]
+build_metadata.Constant.ItemType = Constant
+build_metadata.Constant.Comment = 
+build_metadata.Constant.Value = Tag
+build_metadata.Constant.Type = 
+build_metadata.Constant.Root = Git
+build_metadata.Constant.RootComment = 
