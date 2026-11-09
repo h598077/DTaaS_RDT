@@ -1,0 +1,21 @@
+{
+  "profiles": {
+    "SmartNode": {
+      "commandName": "Project",
+      "commandLineArgs": "--basedir C:\\dev\\ruleless-digital-twins\r\n--appsettings appsettings.json"
+    },
+    "SmartNode-Incubator": {
+      "commandName": "Project",
+      "commandLineArgs": "--appsettings appsettings-incubator.json"
+    },
+    "NordPool-model": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "LD_PRELOAD": "/usr/lib/x86_64-linux-gnu/libpython3.11.so"
+      }
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
