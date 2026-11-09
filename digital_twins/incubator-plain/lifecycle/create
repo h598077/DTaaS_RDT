@@ -9,8 +9,10 @@ apt install -y sudo
 # Base relative paths off lifecycle dir
 cd "$(dirname "${BASH_SOURCE[0]}")"
 
+pwd
+
 # Go to incubator path (relative to lifecycle dir)
-: ${INCUBATOR_PATH:=/Data/incubator}
+: ${INCUBATOR_PATH:=digital_twins/incubator-plain/Data/incubator}
 echo "Using INCUBATOR_PATH: ${INCUBATOR_PATH}"      #Debug path
 cd "${INCUBATOR_PATH}"
 
