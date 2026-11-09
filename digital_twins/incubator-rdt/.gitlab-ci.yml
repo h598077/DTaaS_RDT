@@ -15,10 +15,10 @@ incubator-rdt:
     - chmod +x lifecycle/executefmu
     - lifecycle/executefmu
     - chmod +x lifecycle/execute 
-    - lifecycle/execute &
+    - lifecycle/execute 
     - chmod +x lifecycle/execute2
-    - lifecycle/execute2 &
-    - wait
+    - lifecycle/execute2 
+
 
 
 
