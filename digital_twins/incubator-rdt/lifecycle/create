@@ -62,13 +62,13 @@ sudo apt-get install -y openjdk-21-jre
 
 
 # Download Fuseki  ---------------------------------------------(Not sure if i need)
-#sudo mkdir -p /opt/fuseki
-#cd /opt/fuseki
+sudo mkdir -p /opt/fuseki
+cd /opt/fuseki
 
-#sudo wget https://archive.apache.org/dist/jena/binaries/apache-jena-fuseki-6.2.0.tar.gz
-#sudo tar xzf apache-jena-fuseki-6.2.0.tar.gz --strip-components=1
+sudo wget https://archive.apache.org/dist/jena/binaries/apache-jena-fuseki-6.2.0.tar.gz
+sudo tar xzf apache-jena-fuseki-6.2.0.tar.gz --strip-components=1
 
-#sudo chmod +x /opt/fuseki/fuseki-server
+sudo chmod +x /opt/fuseki/fuseki-server
 
 # Download rabbit  -------------------------------------------
 sudo apt-get update
