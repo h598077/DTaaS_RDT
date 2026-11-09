@@ -1,0 +1,4 @@
+# --- 1. Start Fuseki
+cd /workspace/RDT/Workspace2/Data/ruleless-digital-twins/devcontainer
+bash start-fuseki.sh
+echo "fuseki startet"

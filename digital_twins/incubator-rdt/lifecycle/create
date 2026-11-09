@@ -31,22 +31,22 @@ pip install -r requirements.txt
 
 
 # Download dotnet -----------------------------------------------------------
-#DOTNET_PATH="/tmp/dotnet"
+DOTNET_PATH="/tmp/dotnet"
 
-#mkdir -p "$DOTNET_PATH"
+mkdir -p "$DOTNET_PATH"
 
 # Download the official .NET installer
-#wget -q https://dot.net/v1/dotnet-install.sh -O /tmp/dotnet-install.sh
+wget -q https://dot.net/v1/dotnet-install.sh -O /tmp/dotnet-install.sh
 
 # Install .NET 8 locally
-#bash /tmp/dotnet-install.sh --channel 8.0 --install-dir "$DOTNET_PATH"
+bash /tmp/dotnet-install.sh --channel 8.0 --install-dir "$DOTNET_PATH"
 
-#export DOTNET_ROOT="$DOTNET_PATH"
-#export PATH="$DOTNET_ROOT:$PATH"
+export DOTNET_ROOT="$DOTNET_PATH"
+export PATH="$DOTNET_ROOT:$PATH"
 
 # Download java -----------------------------------------------------------
-#sudo apt-get update
-#sudo apt-get install -y openjdk-21-jre
+sudo apt-get update
+sudo apt-get install -y openjdk-21-jre
 
 
 
