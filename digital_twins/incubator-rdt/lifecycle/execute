@@ -5,7 +5,7 @@ set -e  # Exit on error
 LIFECYCLE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # ----------------- Start fuseki
-bash fusekistart
+bash "${LIFECYCLE_DIR}/fusekistart"
 
 
 
