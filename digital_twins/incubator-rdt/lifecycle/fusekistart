@@ -1,6 +1,16 @@
 # --- 1. Start Fuseki
 LIFECYCLE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 devcontainer="${LIFECYCLE_DIR}/../Data/ruleless-digital-twins/devcontainer"
+
+
+if [ ! -x /opt/fuseki/fuseki-server ]; then
+    echo "ERROR: Fuseki executable not found!"
+    ls -la /opt/fuseki/ || true
+    exit 1
+fi
+
+
+sed -i 's/\r$//' "${devcontainer}/start-fuseki.sh"
 cd "${devcontainer}"
 bash start-fuseki.sh
 
