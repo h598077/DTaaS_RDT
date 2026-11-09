@@ -29,6 +29,39 @@ pip install --upgrade pip
 # Install Python dependencies for incubator
 pip install -r requirements.txt
 
+# Dependancy for python scrips
+FMU_DIR="${LIFECYCLE_DIR}/../Data/ruleless-digital-twins/SmartNode/Implementations/FMUs"
+python -m pip install -r ${FMU_DIR}/Fakepool-FMU/requirements.txt
+python -m pip install -r ${FMU_DIR}/Nordpool-FMU/requirements.txt
+python -m pip install -r ${FMU_DIR}/Yr-Weather-FMU/requirements.txt
+
+
+#OpenModellica -----------------------------------------------------------
+
+sudo apt-get install -y ca-certificates curl gnupg
+
+# Add the official OpenModelica signing key
+curl -fsSL https://build.openmodelica.org/apt/openmodelica.asc |
+    sudo gpg --dearmor --yes \
+        -o /usr/share/keyrings/openmodelica-keyring.gpg
+
+# Add the official OpenModelica stable repository
+OS_CODENAME=$(
+    grep -E '^(UBUNTU|DEBIAN|VERSION)_CODENAME=' /etc/os-release |
+    sort |
+    cut -d= -f2 |
+    head -n1 |
+    tr -d '"'
+)
+
+
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/openmodelica-keyring.gpg] https://build.openmodelica.org/apt $OS_CODENAME stable" |
+    sudo tee /etc/apt/sources.list.d/openmodelica.list >/dev/null
+
+# Install OpenModelica compiler
+sudo apt-get update
+sudo apt-get install -y --no-install-recommends omc
+
 
 # Download dotnet -----------------------------------------------------------
 DOTNET_PATH="/tmp/dotnet"
