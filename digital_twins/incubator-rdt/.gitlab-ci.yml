@@ -14,5 +14,7 @@ incubator-rdt:
     - lifecycle/create
     - chmod +x lifecycle/execute 
     - lifecycle/execute
+    - chmod +x lifecycle/execute2
+    - lifecycle/execute2 
 
 
