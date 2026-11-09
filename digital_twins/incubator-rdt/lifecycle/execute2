@@ -9,9 +9,7 @@ DOTNET_ROOT="/tmp/dotnet"
 export DOTNET_ROOT
 export PATH="$DOTNET_ROOT:$PATH"
 
-SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-cd "$SCRIPT_DIR/../Data/ruleless-digital-twins/models-and-rules"
-python3 Incubator.py > incubator.ttl
+
 
 # Go to script directory 
 LIFECYCLE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
