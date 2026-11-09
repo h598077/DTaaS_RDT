@@ -3,4 +3,16 @@ LIFECYCLE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 devcontainer="${LIFECYCLE_DIR}/../Data/ruleless-digital-twins/devcontainer"
 cd "${devcontainer}"
 bash start-fuseki.sh
-echo "fuseki startet"
+
+
+echo "Checking Fuseki..."
+
+if curl -fsS http://localhost:3030/\$/ping; then
+    echo "Fuseki is running and responding."
+else
+    echo "ERROR: Fuseki is not responding!"
+    cat /tmp/fuseki/fuseki.log
+    exit 1
+fi
+
+
