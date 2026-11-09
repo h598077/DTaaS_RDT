@@ -1,0 +1,156 @@
+{
+  "format": 1,
+  "restore": {
+    "/workspace/RDT/Workspace2/Data/ruleless-digital-twins/SmartNode/Logic/Logic.csproj": {}
+  },
+  "projects": {
+    "/workspace/RDT/Workspace2/Data/ruleless-digital-twins/SmartNode/Femyou/src/Femyou.csproj": {
+      "version": "0.4.0",
+      "restore": {
+        "projectUniqueName": "/workspace/RDT/Workspace2/Data/ruleless-digital-twins/SmartNode/Femyou/src/Femyou.csproj",
+        "projectName": "Femyou",
+        "projectPath": "/workspace/RDT/Workspace2/Data/ruleless-digital-twins/SmartNode/Femyou/src/Femyou.csproj",
+        "packagesPath": "/home/biljan/.nuget/packages/",
+        "outputPath": "/workspace/RDT/Workspace2/Data/ruleless-digital-twins/SmartNode/Femyou/src/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/biljan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "NativeLibraryLoader": {
+              "target": "Package",
+              "version": "[1.0.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/tmp/dotnet/sdk/8.0.427/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/workspace/RDT/Workspace2/Data/ruleless-digital-twins/SmartNode/Logic/Logic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/workspace/RDT/Workspace2/Data/ruleless-digital-twins/SmartNode/Logic/Logic.csproj",
+        "projectName": "Logic",
+        "projectPath": "/workspace/RDT/Workspace2/Data/ruleless-digital-twins/SmartNode/Logic/Logic.csproj",
+        "packagesPath": "/home/biljan/.nuget/packages/",
+        "outputPath": "/workspace/RDT/Workspace2/Data/ruleless-digital-twins/SmartNode/Logic/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/biljan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/workspace/RDT/Workspace2/Data/ruleless-digital-twins/SmartNode/Femyou/src/Femyou.csproj": {
+                "projectPath": "/workspace/RDT/Workspace2/Data/ruleless-digital-twins/SmartNode/Femyou/src/Femyou.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[33.1.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[3.5.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.4, )"
+            },
+            "dotNetRdf": {
+              "target": "Package",
+              "version": "[3.3.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/tmp/dotnet/sdk/8.0.427/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
