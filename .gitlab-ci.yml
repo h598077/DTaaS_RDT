@@ -22,3 +22,14 @@ trigger_mass-spring-damper:
       when: always
   variables:
     RunnerTag: $RunnerTag
+
+
+trigger_incubator-plain:
+  stage: triggers
+  trigger:
+    include: digital_twins/incubator-plain/.gitlab-ci.yml
+  rules: 
+    - if: '$DTName == "incubator-plain"'
+      when: always
+  variables:
+    RunnerTag: $RunnerTag
