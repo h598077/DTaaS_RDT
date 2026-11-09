@@ -23,7 +23,7 @@ LIFECYCLE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 # Define the source and temporary build directories
 SOURCE_DIR="${LIFECYCLE_DIR}/../Data/ruleless-digital-twins\SmartNode\Implementations\FMUs\Source"
 BUILD_DIR="$(mktemp -d /tmp/openmodelica-build.XXXXXX)"
-FMU_DIR ="${LIFECYCLE_DIR}/../Data/ruleless-digital-twins\SmartNode\Implementations\FMUs"
+FMU_DIR="${LIFECYCLE_DIR}/../Data/ruleless-digital-twins\SmartNode\Implementations\FMUs"
 
 # Copy the project to the Linux temporary filesystem
 cp -R "$SOURCE_DIR/." "$BUILD_DIR/"
