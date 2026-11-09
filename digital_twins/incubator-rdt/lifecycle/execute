@@ -1,0 +1,39 @@
+#!/bin/bash
+set -e  # Exit on error
+
+# Base relative paths off lifecycle dir
+
+
+# ----------------- Start fuseki
+#bash fusekistart
+
+
+
+# ----------------- start incubator
+# Go to Incubator path 
+LIFECYCLE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+INCUBATOR_PATH="${LIFECYCLE_DIR}/../Data/incubator"
+
+echo "Using INCUBATOR_PATH: ${INCUBATOR_PATH}"  # debug path
+  
+# Copy simulation.conf into incubator
+cd "$(dirname "${BASH_SOURCE[0]}")"
+cp ../simulation.conf "${INCUBATOR_PATH}/simulation.conf"
+
+cd "${INCUBATOR_PATH}"
+
+# Use the same venv path as in the create script
+VENV_PATH="/tmp/rdt-lifecycle-venv"
+
+if [ ! -d "${VENV_PATH}" ]; then
+    echo "Virtual environment not found at ${VENV_PATH}."
+    echo "Run the lifecycle/create script first to set it up."
+    exit 1
+fi
+
+# Activate venv
+source "${VENV_PATH}/bin/activate"
+
+# Run the Python services
+python3 -m startup.start_all_services

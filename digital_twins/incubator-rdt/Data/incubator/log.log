@@ -1,0 +1,341 @@
+2026-11-02 06:47:42.910 INFO RabbitMQClass : Bound incubator.mock.hw.heater.on--> amq.gen-IeCRgqAQllRmyXFXtleosg
+2026-11-02 06:47:42.915 INFO RabbitMQClass : Bound incubator.mock.hw.box.G--> amq.gen-h9isvQyN1b1_FlDT0gXztg
+2026-11-02 06:47:42.990 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t1--> amq.gen-WiFWF2Q8oZbyegYfZVPteg
+2026-11-02 06:47:43.004 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t2--> amq.gen-UHIcNPPMt_bVtmA2DBNWKA
+2026-11-02 06:47:43.019 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t3--> amq.gen-NnneBBkclNEYos5uwg3new
+2026-11-02 06:47:43.040 INFO IncubatorDriver : Connected.
+2026-11-02 06:47:43.045 INFO RabbitMQClass : Bound incubator.hardware.gpio.fan.on--> amq.gen-DlrkD6p18sAxadsUTKrp0A
+2026-11-02 06:47:43.049 INFO RabbitMQClass : Bound incubator.hardware.gpio.heater.on--> amq.gen-VdMrPNd1CQB_NBg7Fgaeaw
+2026-11-02 06:47:43.128 INFO RabbitMQClass : Bound incubator.record.#--> amq.gen-Y-rG10N0snbMyl-AH20XXw
+2026-11-02 06:47:43.262 INFO RabbitMQClass : Bound incubator.record.driver.state--> amq.gen-0RDGjpZRpUNZWWdm6aAaFw
+2026-11-02 06:47:43.269 INFO RabbitMQClass : Bound incubator.update.kalmanfilter.4params--> amq.gen-w5rO7jnL5lZOlH9dzXgaVg
+2026-11-02 06:47:43.356 INFO RabbitMQClass : Bound incubator.update.closed_loop_controller.parameters--> amq.gen-t1_wQc7G9oQI5PnKq14-8A
+2026-11-02 06:47:43.363 INFO RabbitMQClass : Bound incubator.record.driver.state--> amq.gen-0YeD_mg_DieaipoDiGqj1Q
+2026-11-02 06:47:43.436 INFO RabbitMQClass : Bound incubator.energysaver.enable--> amq.gen-9aZsL1uHVynQ55yAFdxOVw
+2026-11-02 06:47:43.443 INFO RabbitMQClass : Bound incubator.energysaver.pub_energy_saver--> amq.gen-o2nCAaUdJaDFn2Wler2rvg
+2026-11-02 06:47:43.449 INFO RabbitMQClass : Bound incubator.record.kalmanfilter.plant.state--> amq.gen-jaL1nyIDv2tg7ir0kfMduA
+2026-11-02 06:47:43.455 INFO RabbitMQClass : Bound incubator.diagnosis.plant.lidopen--> amq.gen-iml_5TXiesVJz3gCKYfP7w
+2026-11-02 06:54:48.958 WARNING ControllerPhysical : Stopping controller
+2026-11-02 06:56:10.890 INFO RabbitMQClass : Bound incubator.mock.hw.heater.on--> amq.gen-N7aE3BACK6RW65N8igwHlg
+2026-11-02 06:56:10.896 INFO RabbitMQClass : Bound incubator.mock.hw.box.G--> amq.gen-7hyfPH0k6kirbgBk6-4Cfg
+2026-11-02 06:56:10.966 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t1--> amq.gen-LShaFCCw6p8Oq7wRHzLv_g
+2026-11-02 06:56:10.980 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t2--> amq.gen-86ZicuCx7yMJBre_i9E6lw
+2026-11-02 06:56:10.995 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t3--> amq.gen-ssYfXzzaYw7S54DkiilbXQ
+2026-11-02 06:56:11.017 INFO IncubatorDriver : Connected.
+2026-11-02 06:56:11.022 INFO RabbitMQClass : Bound incubator.hardware.gpio.fan.on--> amq.gen-NtNwv79p75aNphSUqNuJfg
+2026-11-02 06:56:11.026 INFO RabbitMQClass : Bound incubator.hardware.gpio.heater.on--> amq.gen-3I05lamhUrGEqAUdqfrzLQ
+2026-11-02 06:56:11.102 INFO RabbitMQClass : Bound incubator.record.#--> amq.gen-1KVO59ZsWOtmtxdLO7uaGA
+2026-11-02 06:56:11.232 INFO RabbitMQClass : Bound incubator.record.driver.state--> amq.gen-wFhiSgXsKrzQOL1dP6YWVQ
+2026-11-02 06:56:11.242 INFO RabbitMQClass : Bound incubator.update.kalmanfilter.4params--> amq.gen-QXCKiJjwuobnUiSVN2JPnw
+2026-11-02 06:56:11.320 INFO RabbitMQClass : Bound incubator.update.closed_loop_controller.parameters--> amq.gen-tnzWBvdc7Yd98hE2psxH6g
+2026-11-02 06:56:11.329 INFO RabbitMQClass : Bound incubator.record.driver.state--> amq.gen-sbH8BC4DF0rfUNDnYwwm2Q
+2026-11-02 06:56:11.405 INFO RabbitMQClass : Bound incubator.energysaver.enable--> amq.gen-Xb1qVjCfscXYcEyt9azYgw
+2026-11-02 06:56:11.411 INFO RabbitMQClass : Bound incubator.energysaver.pub_energy_saver--> amq.gen-1hZnPZ0bsfAM9U9_A51E4Q
+2026-11-02 06:56:11.417 INFO RabbitMQClass : Bound incubator.record.kalmanfilter.plant.state--> amq.gen-InVuvgqUaPhzvq6XWUPZPg
+2026-11-02 06:56:11.423 INFO RabbitMQClass : Bound incubator.diagnosis.plant.lidopen--> amq.gen-hzXWkommZ35aQ3ZFxCyBpQ
+2026-11-02 06:56:29.251 WARNING ControllerPhysical : Stopping controller
+2026-11-02 06:56:36.781 INFO RabbitMQClass : Bound incubator.mock.hw.heater.on--> amq.gen-cYurxPsnljOzs_elj59wtg
+2026-11-02 06:56:36.786 INFO RabbitMQClass : Bound incubator.mock.hw.box.G--> amq.gen-jkKRDv5KOgLKbjRX2gR0Jw
+2026-11-02 06:56:36.859 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t1--> amq.gen-j847GFzRTTuSE8uP_BvWgw
+2026-11-02 06:56:36.873 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t2--> amq.gen-u-SjwEeDDc_0CvZJAxEfTg
+2026-11-02 06:56:36.888 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t3--> amq.gen-l8p8LriAkbM3KesD9gC9hQ
+2026-11-02 06:56:36.910 INFO IncubatorDriver : Connected.
+2026-11-02 06:56:36.916 INFO RabbitMQClass : Bound incubator.hardware.gpio.fan.on--> amq.gen-0NCTuMMcZbkKNpezb6ZgjQ
+2026-11-02 06:56:36.920 INFO RabbitMQClass : Bound incubator.hardware.gpio.heater.on--> amq.gen-6lE-p6je9PMA3P2BL14JIA
+2026-11-02 06:56:36.994 INFO RabbitMQClass : Bound incubator.record.#--> amq.gen-xNshA700peMT3bUEVH5Hfg
+2026-11-02 06:56:37.115 INFO RabbitMQClass : Bound incubator.record.driver.state--> amq.gen-jQVNA2QEf78xIT9z73GHYA
+2026-11-02 06:56:37.131 INFO RabbitMQClass : Bound incubator.update.kalmanfilter.4params--> amq.gen-bCIqek2lrwj8HNoX4mKSJw
+2026-11-02 06:56:37.226 INFO RabbitMQClass : Bound incubator.update.closed_loop_controller.parameters--> amq.gen-MmPRV1Ivp15GBx6xXbrTZg
+2026-11-02 06:56:37.233 INFO RabbitMQClass : Bound incubator.record.driver.state--> amq.gen-qXOAMP1oIUvWUsv-o6MyEQ
+2026-11-02 06:56:37.307 INFO RabbitMQClass : Bound incubator.energysaver.enable--> amq.gen-YkCz_85XKV3_x28oyW6JOw
+2026-11-02 06:56:37.313 INFO RabbitMQClass : Bound incubator.energysaver.pub_energy_saver--> amq.gen-M7--7pRH0ccJdszdg8SsJA
+2026-11-02 06:56:37.319 INFO RabbitMQClass : Bound incubator.record.kalmanfilter.plant.state--> amq.gen-yetsVKHb5__fzjkEpkgahA
+2026-11-02 06:56:37.325 INFO RabbitMQClass : Bound incubator.diagnosis.plant.lidopen--> amq.gen-KIAMdDiOVRXD98_le6VGUw
+2026-11-02 06:56:47.801 WARNING ControllerPhysical : Stopping controller
+2026-11-02 06:57:08.099 INFO RabbitMQClass : Bound incubator.mock.hw.heater.on--> amq.gen-E0ECq4Zu54ptGURoKjHEsQ
+2026-11-02 06:57:08.104 INFO RabbitMQClass : Bound incubator.mock.hw.box.G--> amq.gen-x8YJrr-YcmcJSNN2XxJJQQ
+2026-11-02 06:57:08.172 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t1--> amq.gen-6rmz6s0_tKPbTQiCSbaAfw
+2026-11-02 06:57:08.189 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t2--> amq.gen-JRnx_zKbLoa0O2bARI40GA
+2026-11-02 06:57:08.203 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t3--> amq.gen-bk9DRUCL3pUL9DWxzgr_TA
+2026-11-02 06:57:08.224 INFO IncubatorDriver : Connected.
+2026-11-02 06:57:08.229 INFO RabbitMQClass : Bound incubator.hardware.gpio.fan.on--> amq.gen-jtulvlyazkeXoIRnrd0e_g
+2026-11-02 06:57:08.233 INFO RabbitMQClass : Bound incubator.hardware.gpio.heater.on--> amq.gen-R8BEt8vrjYngww1b-o6sFQ
+2026-11-02 06:57:08.308 INFO RabbitMQClass : Bound incubator.record.#--> amq.gen-gBnhKzphSTZW4QzQTlWZWQ
+2026-11-02 06:57:08.426 INFO RabbitMQClass : Bound incubator.record.driver.state--> amq.gen-EE-ZTH2zjjDIqopyobxb1Q
+2026-11-02 06:57:08.435 INFO RabbitMQClass : Bound incubator.update.kalmanfilter.4params--> amq.gen-LmXiZj7q9cqx-MzlgozMgA
+2026-11-02 06:57:08.526 INFO RabbitMQClass : Bound incubator.update.closed_loop_controller.parameters--> amq.gen-yuiypTStm1AbY9iumhWNvA
+2026-11-02 06:57:08.532 INFO RabbitMQClass : Bound incubator.record.driver.state--> amq.gen-Ln_gUZmyCnPP-lE-97dssQ
+2026-11-02 06:57:08.601 INFO RabbitMQClass : Bound incubator.energysaver.enable--> amq.gen-W_H1OgAnTfh0Z5JVLwkU7A
+2026-11-02 06:57:08.608 INFO RabbitMQClass : Bound incubator.energysaver.pub_energy_saver--> amq.gen-IMm3KolR6O9PtAAQTmYdMQ
+2026-11-02 06:57:08.614 INFO RabbitMQClass : Bound incubator.record.kalmanfilter.plant.state--> amq.gen-o5F8V1D0PH40N3xhYQQeYA
+2026-11-02 06:57:08.620 INFO RabbitMQClass : Bound incubator.diagnosis.plant.lidopen--> amq.gen-LW4HgNTVPj-bmpy_zB-ZoQ
+2026-11-02 06:57:31.760 WARNING ControllerPhysical : Stopping controller
+2026-11-02 06:57:49.495 INFO RabbitMQClass : Bound incubator.mock.hw.heater.on--> amq.gen-qD6zl6VXrVOKt8JipTCKPQ
+2026-11-02 06:57:49.500 INFO RabbitMQClass : Bound incubator.mock.hw.box.G--> amq.gen-KJQH5T_J585HJZRuJhOWrg
+2026-11-02 06:57:49.570 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t1--> amq.gen-h5QT0XvK5ifybMKp3hNy4A
+2026-11-02 06:57:49.586 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t2--> amq.gen-T3W9f1W_60Rqi4a1-9hWtQ
+2026-11-02 06:57:49.603 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t3--> amq.gen-5holvp9ERMMjp4CfY4GHgg
+2026-11-02 06:57:49.626 INFO IncubatorDriver : Connected.
+2026-11-02 06:57:49.631 INFO RabbitMQClass : Bound incubator.hardware.gpio.fan.on--> amq.gen-A-UIjWnwvPtOil-yEl6uDA
+2026-11-02 06:57:49.635 INFO RabbitMQClass : Bound incubator.hardware.gpio.heater.on--> amq.gen-nn_3Qk-5wQBmxGfDPXi75g
+2026-11-02 06:57:49.711 INFO RabbitMQClass : Bound incubator.record.#--> amq.gen-KkiZKv0Kv3GFvJYE4XI2NQ
+2026-11-02 06:57:49.831 INFO RabbitMQClass : Bound incubator.record.driver.state--> amq.gen-yOxwnkgnNUSZWvQp_qdVMQ
+2026-11-02 06:57:49.844 INFO RabbitMQClass : Bound incubator.update.kalmanfilter.4params--> amq.gen-H24s5e9tl6Jp-F_ZsNC-lQ
+2026-11-02 06:57:49.927 INFO RabbitMQClass : Bound incubator.update.closed_loop_controller.parameters--> amq.gen-R5TMXnCE0k_AkwI4qRJddw
+2026-11-02 06:57:49.934 INFO RabbitMQClass : Bound incubator.record.driver.state--> amq.gen-QNcK_rBddcIo0pXMm14zpg
+2026-11-02 06:57:50.004 INFO RabbitMQClass : Bound incubator.energysaver.enable--> amq.gen-GLdbsRAqYeGnQ3GZt6QIEA
+2026-11-02 06:57:50.011 INFO RabbitMQClass : Bound incubator.energysaver.pub_energy_saver--> amq.gen-_v-w6l6HG_lG1DKZMxlMhg
+2026-11-02 06:57:50.016 INFO RabbitMQClass : Bound incubator.record.kalmanfilter.plant.state--> amq.gen-dQI0RXUEid8d32xhJ5FNRg
+2026-11-02 06:57:50.022 INFO RabbitMQClass : Bound incubator.diagnosis.plant.lidopen--> amq.gen-Vv9-Dwi0GqaeuOtRHCmx4g
+2026-11-02 07:00:53.833 WARNING ControllerPhysical : Stopping controller
+2026-11-02 07:01:12.684 INFO RabbitMQClass : Bound incubator.mock.hw.heater.on--> amq.gen-gLIRrzDm928U2sHOIpzpAw
+2026-11-02 07:01:12.691 INFO RabbitMQClass : Bound incubator.mock.hw.box.G--> amq.gen-EvZzHGQZ7V8VM4le9eHCKA
+2026-11-02 07:01:12.761 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t1--> amq.gen-8Bpz_98Bt-fyUMRbxdQ3UQ
+2026-11-02 07:01:12.777 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t2--> amq.gen-4E_9z21m6Qzk1k0Yv13qBw
+2026-11-02 07:01:12.793 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t3--> amq.gen-OB98RK86ItfwI9xAgHD6SA
+2026-11-02 07:01:12.814 INFO IncubatorDriver : Connected.
+2026-11-02 07:01:12.819 INFO RabbitMQClass : Bound incubator.hardware.gpio.fan.on--> amq.gen-lQfP_jR7gHnA77GG59tO5g
+2026-11-02 07:01:12.823 INFO RabbitMQClass : Bound incubator.hardware.gpio.heater.on--> amq.gen-UbNi1PXS8Z3SB7aSQzWbCw
+2026-11-02 07:01:12.900 INFO RabbitMQClass : Bound incubator.record.#--> amq.gen-HoIvAkpPGdAMcYLm4wq1HQ
+2026-11-02 07:01:13.023 INFO RabbitMQClass : Bound incubator.record.driver.state--> amq.gen-m7By4YquYDwpdOhI07xa1g
+2026-11-02 07:01:13.033 INFO RabbitMQClass : Bound incubator.update.kalmanfilter.4params--> amq.gen-GPTkr1zr5JKgdZVUxFcJzw
+2026-11-02 07:01:13.123 INFO RabbitMQClass : Bound incubator.update.closed_loop_controller.parameters--> amq.gen-Qe4b6E4ZHeoHCoQ4CJgQ4A
+2026-11-02 07:01:13.130 INFO RabbitMQClass : Bound incubator.record.driver.state--> amq.gen-dZxxPZXD2EDQG0oYxYumQA
+2026-11-02 07:01:13.210 INFO RabbitMQClass : Bound incubator.energysaver.enable--> amq.gen-KiKWA_ETt0syt5NT0BZ6lQ
+2026-11-02 07:01:13.217 INFO RabbitMQClass : Bound incubator.energysaver.pub_energy_saver--> amq.gen-IHSJ0yNcIfvJ_UvQyOo5Aw
+2026-11-02 07:01:13.223 INFO RabbitMQClass : Bound incubator.record.kalmanfilter.plant.state--> amq.gen-IUsH7uuJ4RQIJdDqm2cSpA
+2026-11-02 07:01:13.228 INFO RabbitMQClass : Bound incubator.diagnosis.plant.lidopen--> amq.gen-yyJ3--FVLUEZ8alCWtAvTQ
+2026-11-02 07:29:54.926 INFO RabbitMQClass : Bound incubator.mock.hw.heater.on--> amq.gen-CR1uq7dnAh-F34WkhlQNPQ
+2026-11-02 07:29:54.931 INFO RabbitMQClass : Bound incubator.mock.hw.box.G--> amq.gen-u4LFK4j4aYG6EZmVx-CujA
+2026-11-02 07:29:55.000 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t1--> amq.gen-vfdk2uDzOOeFS_97hL2Vpw
+2026-11-02 07:29:55.019 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t2--> amq.gen-MDP3MOigkp_h2bJyP_nyUA
+2026-11-02 07:29:55.034 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t3--> amq.gen-sfCK03v2C6arkEqsTjuHOg
+2026-11-02 07:29:55.058 INFO IncubatorDriver : Connected.
+2026-11-02 07:29:55.062 INFO RabbitMQClass : Bound incubator.hardware.gpio.fan.on--> amq.gen-Lsz0LcfW_8zwjHxYQ0yQ6A
+2026-11-02 07:29:55.067 INFO RabbitMQClass : Bound incubator.hardware.gpio.heater.on--> amq.gen-X3jNEZqLO5-qMIpFFkeWcw
+2026-11-02 07:29:55.146 INFO RabbitMQClass : Bound incubator.record.#--> amq.gen-FqSybs_0VQs9vyIM7Nsqsw
+2026-11-02 07:29:55.280 INFO RabbitMQClass : Bound incubator.record.driver.state--> amq.gen-cOILeFL_-HncRLxEx-hKJw
+2026-11-02 07:29:55.292 INFO RabbitMQClass : Bound incubator.update.kalmanfilter.4params--> amq.gen-HFOhKm7hBMRs074UYXlmVQ
+2026-11-02 07:29:55.378 INFO RabbitMQClass : Bound incubator.update.closed_loop_controller.parameters--> amq.gen-8QucAlBS8e8_4hb1LAHxog
+2026-11-02 07:29:55.384 INFO RabbitMQClass : Bound incubator.record.driver.state--> amq.gen-dLnsCMGQer4Yxm4M8F5R8A
+2026-11-02 07:29:55.453 INFO RabbitMQClass : Bound incubator.energysaver.enable--> amq.gen-onYcgRr8hiGirs6rKcXu4Q
+2026-11-02 07:29:55.461 INFO RabbitMQClass : Bound incubator.energysaver.pub_energy_saver--> amq.gen-HnMCYRrGooQQ3VcZZ7dgaA
+2026-11-02 07:29:55.467 INFO RabbitMQClass : Bound incubator.record.kalmanfilter.plant.state--> amq.gen-wVmARuXfMnm8gB8nKfPCuQ
+2026-11-02 07:29:55.472 INFO RabbitMQClass : Bound incubator.diagnosis.plant.lidopen--> amq.gen-pmMa5Q5WvxVcz1ohD4z2EQ
+2026-11-02 07:31:10.829 WARNING ControllerPhysical : Stopping controller
+2026-11-02 07:34:17.622 INFO RabbitMQClass : Bound incubator.mock.hw.heater.on--> amq.gen-b81nzX5aJk756n3wPXeQhQ
+2026-11-02 07:34:17.627 INFO RabbitMQClass : Bound incubator.mock.hw.box.G--> amq.gen-MI5pr8rLA1L1V8ucNdBuWw
+2026-11-02 07:34:17.694 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t1--> amq.gen-q3PIk_tMd6CLD3doxhFa7g
+2026-11-02 07:34:17.713 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t2--> amq.gen-29FeGycT4Ml05keuwFc1sw
+2026-11-02 07:34:17.726 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t3--> amq.gen--zwXntac_i_WTWgBV9vmGw
+2026-11-02 07:34:17.752 INFO IncubatorDriver : Connected.
+2026-11-02 07:34:17.757 INFO RabbitMQClass : Bound incubator.hardware.gpio.fan.on--> amq.gen-OY7cUF5OjR7V19qLXROXhw
+2026-11-02 07:34:17.763 INFO RabbitMQClass : Bound incubator.hardware.gpio.heater.on--> amq.gen-8TgmIWEMYFjCvSBcBecKuQ
+2026-11-02 07:34:17.839 INFO RabbitMQClass : Bound incubator.record.#--> amq.gen-uPtPLh6z6jhOpDx3GcyrwA
+2026-11-02 07:34:17.968 INFO RabbitMQClass : Bound incubator.record.driver.state--> amq.gen-h3u8mXNti_gsbXwT9Uuz_Q
+2026-11-02 07:34:17.980 INFO RabbitMQClass : Bound incubator.update.kalmanfilter.4params--> amq.gen-bBKx5Rz8bWg1-Of1-_4xUg
+2026-11-02 07:34:18.065 INFO RabbitMQClass : Bound incubator.update.closed_loop_controller.parameters--> amq.gen-ZaJa1p3C4GBCxB20Cwyxiw
+2026-11-02 07:34:18.070 INFO RabbitMQClass : Bound incubator.record.driver.state--> amq.gen-5qLd8tyzwjBEFVeynmTyoQ
+2026-11-02 07:34:18.140 INFO RabbitMQClass : Bound incubator.energysaver.enable--> amq.gen-jBb_bxso7vPh5oJnOJsa3g
+2026-11-02 07:34:18.147 INFO RabbitMQClass : Bound incubator.energysaver.pub_energy_saver--> amq.gen-pLkFgL65kVnpt02q0OaGSg
+2026-11-02 07:34:18.153 INFO RabbitMQClass : Bound incubator.record.kalmanfilter.plant.state--> amq.gen-klUVwqRcjWq3icH3wLte3A
+2026-11-02 07:34:18.158 INFO RabbitMQClass : Bound incubator.diagnosis.plant.lidopen--> amq.gen-1NIcF5jP7ky5vadLUriesA
+2026-11-02 07:34:39.914 WARNING ControllerPhysical : Stopping controller
+2026-11-02 07:34:45.436 INFO RabbitMQClass : Bound incubator.mock.hw.heater.on--> amq.gen--WfnJtwFcvIetaXTNcKRRw
+2026-11-02 07:34:45.441 INFO RabbitMQClass : Bound incubator.mock.hw.box.G--> amq.gen-DU6Z3pJQdKOoNUtJa3Ywow
+2026-11-02 07:34:45.510 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t1--> amq.gen-2lWHcvmNKYXAIeT7xFiL8g
+2026-11-02 07:34:45.527 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t2--> amq.gen-fMgW6a1JcpYk519DAKnoZA
+2026-11-02 07:34:45.543 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t3--> amq.gen-W4JekfBGkLwa0dYDB21X-A
+2026-11-02 07:34:45.564 INFO IncubatorDriver : Connected.
+2026-11-02 07:34:45.569 INFO RabbitMQClass : Bound incubator.hardware.gpio.fan.on--> amq.gen-rwcZxw03gkOZsyUql4O0Sw
+2026-11-02 07:34:45.573 INFO RabbitMQClass : Bound incubator.hardware.gpio.heater.on--> amq.gen-Tf-2-W_AhVgLVpTziuETtQ
+2026-11-02 07:34:45.649 INFO RabbitMQClass : Bound incubator.record.#--> amq.gen-gXBLxOARAAXjPQYhNhTsnw
+2026-11-02 07:34:45.765 INFO RabbitMQClass : Bound incubator.record.driver.state--> amq.gen-jUTR5qUmKiaZKvVhyu3sbA
+2026-11-02 07:34:45.774 INFO RabbitMQClass : Bound incubator.update.kalmanfilter.4params--> amq.gen-Z5No5e8gFTI3xGr3zLgyEQ
+2026-11-02 07:34:45.857 INFO RabbitMQClass : Bound incubator.update.closed_loop_controller.parameters--> amq.gen-C-rbNbWlJjEPpBqiTs0Y1A
+2026-11-02 07:34:45.864 INFO RabbitMQClass : Bound incubator.record.driver.state--> amq.gen-E_rta9MMSZa_NluHYqXhng
+2026-11-02 07:34:45.937 INFO RabbitMQClass : Bound incubator.energysaver.enable--> amq.gen-pZEwiZkoXXbzPOgLAn5TKQ
+2026-11-02 07:34:45.943 INFO RabbitMQClass : Bound incubator.energysaver.pub_energy_saver--> amq.gen-hTDPFCCAm4lI9CBPBmPXsQ
+2026-11-02 07:34:45.949 INFO RabbitMQClass : Bound incubator.record.kalmanfilter.plant.state--> amq.gen-GTuz60g95IyrjSFtZQBSpA
+2026-11-02 07:34:45.954 INFO RabbitMQClass : Bound incubator.diagnosis.plant.lidopen--> amq.gen-Hw6r9YYc3FtgJ6pejIU5TQ
+2026-11-02 07:34:52.364 WARNING ControllerPhysical : Stopping controller
+2026-11-02 09:44:30.916 INFO RabbitMQClass : Bound incubator.mock.hw.heater.on--> amq.gen-mJl1dGAQVoIeSkJPrpiV4A
+2026-11-02 09:44:30.923 INFO RabbitMQClass : Bound incubator.mock.hw.box.G--> amq.gen-xowGgP2lPg4j6PxBDuI6wQ
+2026-11-02 09:44:30.999 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t1--> amq.gen-Td8YJwHVn6_oQJpxMF7Zjg
+2026-11-02 09:44:31.015 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t2--> amq.gen-UDkYSSnCBUB-bZxPVTtcuQ
+2026-11-02 09:44:31.031 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t3--> amq.gen-UTzoDJDnE3Y3erGsS0R5lw
+2026-11-02 09:44:31.054 INFO IncubatorDriver : Connected.
+2026-11-02 09:44:31.059 INFO RabbitMQClass : Bound incubator.hardware.gpio.fan.on--> amq.gen-55WUwEG1wYCp7mIbNZKdDA
+2026-11-02 09:44:31.064 INFO RabbitMQClass : Bound incubator.hardware.gpio.heater.on--> amq.gen-zKyjPLebt-LzOgbVz9CeEQ
+2026-11-02 09:44:31.140 INFO RabbitMQClass : Bound incubator.record.#--> amq.gen-BVCpVjFnT-YA2oceqn2L-Q
+2026-11-02 09:58:00.784 INFO RabbitMQClass : Bound incubator.mock.hw.heater.on--> amq.gen-No0QrK5eW6R-JbnZzAFwcw
+2026-11-02 09:58:00.790 INFO RabbitMQClass : Bound incubator.mock.hw.box.G--> amq.gen-ygY90JR5zBm_7squFUdt3g
+2026-11-02 09:58:00.868 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t1--> amq.gen-e2Cgez8zPU3O-ZKf3VR3Tg
+2026-11-02 09:58:00.884 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t2--> amq.gen-90n5Z7djKg9NIsukmWickQ
+2026-11-02 09:58:00.904 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t3--> amq.gen-zrNDvqSeME6KsvHQ1Dncxw
+2026-11-02 09:58:00.927 INFO IncubatorDriver : Connected.
+2026-11-02 09:58:00.933 INFO RabbitMQClass : Bound incubator.hardware.gpio.fan.on--> amq.gen-9r25Q81Vx7IqpSfo6VeDCA
+2026-11-02 09:58:00.939 INFO RabbitMQClass : Bound incubator.hardware.gpio.heater.on--> amq.gen-WwHWCYNO58MLNJeTwTNlKQ
+2026-11-02 09:58:01.021 INFO RabbitMQClass : Bound incubator.record.#--> amq.gen-1aNfh3cxd4JGcXRq-T2MqQ
+2026-11-02 10:17:03.432 INFO RabbitMQClass : Bound incubator.mock.hw.heater.on--> amq.gen-U_eoAcqWn7McLmVEI7iKDQ
+2026-11-02 10:17:03.437 INFO RabbitMQClass : Bound incubator.mock.hw.box.G--> amq.gen-M-wm64mh86DeGYtqhUt7AQ
+2026-11-02 10:17:03.507 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t1--> amq.gen-BK6zV4KNfzcmm-zwFEA-Xg
+2026-11-02 10:17:03.523 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t2--> amq.gen-f5106yqCL-FuXkJAmtYHqA
+2026-11-02 10:17:03.541 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t3--> amq.gen-XytdqGEKnqjmoXYx5ZY0_w
+2026-11-02 10:17:03.561 INFO IncubatorDriver : Connected.
+2026-11-02 10:17:03.566 INFO RabbitMQClass : Bound incubator.hardware.gpio.fan.on--> amq.gen-zG9R-dVVGlAaTpqLxuKxlQ
+2026-11-02 10:17:03.570 INFO RabbitMQClass : Bound incubator.hardware.gpio.heater.on--> amq.gen-TZuUB_SRM0wMZahQZ-F-Kw
+2026-11-02 10:17:03.647 INFO RabbitMQClass : Bound incubator.record.#--> amq.gen-wFzUyeKDrtKlGMZaZXBWIg
+2026-11-02 10:18:21.576 INFO RabbitMQClass : Bound incubator.mock.hw.heater.on--> amq.gen-sBgT9ASF19Mo0DDLYMjIOA
+2026-11-02 10:18:21.581 INFO RabbitMQClass : Bound incubator.mock.hw.box.G--> amq.gen-ezhSZ-FyOxI8WHEx5S-S9A
+2026-11-02 10:18:21.647 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t1--> amq.gen-_6ydPV_9XcOH_GkJ5qTGMA
+2026-11-02 10:18:21.663 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t2--> amq.gen-bWtemDMjuhgRhOyj4mJfzQ
+2026-11-02 10:18:21.679 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t3--> amq.gen-EcMoEQS02XnDjCrvJWWRrA
+2026-11-02 10:18:21.702 INFO IncubatorDriver : Connected.
+2026-11-02 10:18:21.707 INFO RabbitMQClass : Bound incubator.hardware.gpio.fan.on--> amq.gen-00RrKFeayNYwor3y8L75qg
+2026-11-02 10:18:21.712 INFO RabbitMQClass : Bound incubator.hardware.gpio.heater.on--> amq.gen-5XtYxNCuixX25bZPHhyvyQ
+2026-11-02 10:18:21.787 INFO RabbitMQClass : Bound incubator.record.#--> amq.gen-gaisoWEpGE5rpvLbSm_JeQ
+2026-11-02 10:22:08.116 INFO RabbitMQClass : Bound incubator.mock.hw.heater.on--> amq.gen-n31aPmsbUWjQiP1OWHxRfA
+2026-11-02 10:22:08.122 INFO RabbitMQClass : Bound incubator.mock.hw.box.G--> amq.gen-84-Z6Xolt7Ap3ShsiTsj6Q
+2026-11-02 10:22:08.185 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t1--> amq.gen-qvUaAbDaIFF1y8CDICKd5Q
+2026-11-02 10:22:08.203 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t2--> amq.gen-25xjAxam-lUgWAPCbwhDHQ
+2026-11-02 10:22:08.219 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t3--> amq.gen-hpOD6ooFkS_VOLMCfPOogg
+2026-11-02 10:22:08.240 INFO IncubatorDriver : Connected.
+2026-11-02 10:22:08.244 INFO RabbitMQClass : Bound incubator.hardware.gpio.fan.on--> amq.gen-Fq-mnkRdtnUrzdgbPatkIQ
+2026-11-02 10:22:08.248 INFO RabbitMQClass : Bound incubator.hardware.gpio.heater.on--> amq.gen-tsNmv1WDTnRJ5-_Ybp-umQ
+2026-11-02 10:22:08.318 INFO RabbitMQClass : Bound incubator.record.#--> amq.gen-Xb3yadgy40VvaJ3mN-aDYg
+2026-11-02 10:24:06.600 INFO RabbitMQClass : Bound incubator.mock.hw.heater.on--> amq.gen-XKaLkAA7fqXhBvcE3k8g-Q
+2026-11-02 10:24:06.606 INFO RabbitMQClass : Bound incubator.mock.hw.box.G--> amq.gen-uab3d1X8Hj_8xlZ8ydIDMg
+2026-11-02 10:24:06.679 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t1--> amq.gen-Bisd0tKR1Mdwkbc0J8dQrA
+2026-11-02 10:24:06.694 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t2--> amq.gen-LgACdFa0FPG1CO2hAahmpA
+2026-11-02 10:24:06.707 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t3--> amq.gen-JwUloIE42syIt1J_M9zSmw
+2026-11-02 10:24:06.731 INFO IncubatorDriver : Connected.
+2026-11-02 10:24:06.736 INFO RabbitMQClass : Bound incubator.hardware.gpio.fan.on--> amq.gen-snmr929PveqhlFuo0pnx2A
+2026-11-02 10:24:06.741 INFO RabbitMQClass : Bound incubator.hardware.gpio.heater.on--> amq.gen-AEt06OZIpt7VP9O4s2yGtg
+2026-11-02 10:24:06.812 INFO RabbitMQClass : Bound incubator.record.#--> amq.gen-yDUz2ODqwC4nytb72Rb7Dw
+2026-11-02 10:37:25.353 INFO RabbitMQClass : Bound incubator.mock.hw.heater.on--> amq.gen-etJm0ans1vlwnxFXz0VTjw
+2026-11-02 10:37:25.359 INFO RabbitMQClass : Bound incubator.mock.hw.box.G--> amq.gen-0pskfF7ukmEFUjnVIBYPlQ
+2026-11-02 10:37:25.432 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t1--> amq.gen-B08WsK-gXIn9dFQNsfNK9A
+2026-11-02 10:37:25.446 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t2--> amq.gen-tzzh5PmwB82b9sy5a4g2gA
+2026-11-02 10:37:25.463 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t3--> amq.gen-r2-1Qa1Haix9rqPK03Ft2Q
+2026-11-02 10:37:25.484 INFO IncubatorDriver : Connected.
+2026-11-02 10:37:25.488 INFO RabbitMQClass : Bound incubator.hardware.gpio.fan.on--> amq.gen-vk-D78Yi01zd8WPVffKANQ
+2026-11-02 10:37:25.493 INFO RabbitMQClass : Bound incubator.hardware.gpio.heater.on--> amq.gen-uGuqclr6-mj_fjo9Y-PmDA
+2026-11-02 10:37:25.576 INFO RabbitMQClass : Bound incubator.record.#--> amq.gen-duQqHwJQCF-b_0dKYrpyBg
+2026-11-02 10:40:00.878 INFO RabbitMQClass : Bound incubator.mock.hw.heater.on--> amq.gen--UWvf1kxXyocefYuS2AWMQ
+2026-11-02 10:40:00.883 INFO RabbitMQClass : Bound incubator.mock.hw.box.G--> amq.gen--8r1cKIThcep-0s1jCDmVw
+2026-11-02 10:40:00.954 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t1--> amq.gen-FP3gDBuAgcSEt9_3LXQvpQ
+2026-11-02 10:40:00.971 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t2--> amq.gen-8kmDstBnMcsc5Wno_QT_fA
+2026-11-02 10:40:00.987 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t3--> amq.gen-U0B1MTJFelraNhQONIA8kQ
+2026-11-02 10:40:01.010 INFO IncubatorDriver : Connected.
+2026-11-02 10:40:01.015 INFO RabbitMQClass : Bound incubator.hardware.gpio.fan.on--> amq.gen-rQcH67ySEwloSDjkJZrV0w
+2026-11-02 10:40:01.020 INFO RabbitMQClass : Bound incubator.hardware.gpio.heater.on--> amq.gen-zdZKkYwD5mR5UhghBstP2A
+2026-11-02 10:40:01.101 INFO RabbitMQClass : Bound incubator.record.#--> amq.gen-2emVi6exQqmQxI5yJWmPFg
+2026-11-02 10:44:57.340 INFO RabbitMQClass : Bound incubator.mock.hw.heater.on--> amq.gen-Vt4GXkWe9c7NXAxBaP3d-g
+2026-11-02 10:44:57.347 INFO RabbitMQClass : Bound incubator.mock.hw.box.G--> amq.gen-gbyiPC7UienGCNK6oVj2Lg
+2026-11-02 10:44:57.418 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t1--> amq.gen-8oKSSMyXa_3cjYkvqGrdVQ
+2026-11-02 10:44:57.433 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t2--> amq.gen-EMQw0T5WtZG_NO63k5Sa-A
+2026-11-02 10:44:57.449 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t3--> amq.gen-w5W-aTNBN59dZoSqg5oMQQ
+2026-11-02 10:44:57.470 INFO IncubatorDriver : Connected.
+2026-11-02 10:44:57.475 INFO RabbitMQClass : Bound incubator.hardware.gpio.fan.on--> amq.gen-wpLZWFhv4ebU0R-S8gSkQg
+2026-11-02 10:44:57.479 INFO RabbitMQClass : Bound incubator.hardware.gpio.heater.on--> amq.gen-e-NZv2Sl2FKw5qnwW_HLrg
+2026-11-02 10:44:57.553 INFO RabbitMQClass : Bound incubator.record.#--> amq.gen-qD7lK5vWwHNeJioq1EjLYA
+2026-11-02 11:23:15.428 INFO RabbitMQClass : Bound incubator.mock.hw.heater.on--> amq.gen-elGYKAS_L1B9yQDzjWjCwQ
+2026-11-02 11:23:15.434 INFO RabbitMQClass : Bound incubator.mock.hw.box.G--> amq.gen-LCUnJ0PYEsO1BPRYOfsCzw
+2026-11-02 11:23:15.501 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t1--> amq.gen-8qBg85pXEV7a2KkYI1YEHQ
+2026-11-02 11:23:15.515 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t2--> amq.gen-A6uvxvuLAqOT3WLfZ6x4Hw
+2026-11-02 11:23:15.530 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t3--> amq.gen-yEVYZgFEL_5WDAXfvUmIqg
+2026-11-02 11:23:15.551 INFO IncubatorDriver : Connected.
+2026-11-02 11:23:15.556 INFO RabbitMQClass : Bound incubator.hardware.gpio.fan.on--> amq.gen-K1X4c72bh3Bn4oNv1Qcxlw
+2026-11-02 11:23:15.560 INFO RabbitMQClass : Bound incubator.hardware.gpio.heater.on--> amq.gen-LmERfLtBQgExUhacjg4RDQ
+2026-11-02 11:23:15.636 INFO RabbitMQClass : Bound incubator.record.#--> amq.gen-JrXRaG7FLWAJhVLvyeRUvA
+2026-11-02 11:23:35.593 INFO RabbitMQClass : Bound incubator.mock.hw.heater.on--> amq.gen-CfYLXzowV6XozFlp0HY2zQ
+2026-11-02 11:23:35.598 INFO RabbitMQClass : Bound incubator.mock.hw.box.G--> amq.gen-z6CRDn4vt6L-PoArV8mQig
+2026-11-02 11:23:35.667 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t1--> amq.gen-cUWcyidaHYtCd_bxhf9ogA
+2026-11-02 11:23:35.681 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t2--> amq.gen-lG2GN15AQjRnF29_0ZvauA
+2026-11-02 11:23:35.697 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t3--> amq.gen-rr7NucnHGYVo2KersUDRbA
+2026-11-02 11:23:35.718 INFO IncubatorDriver : Connected.
+2026-11-02 11:23:35.723 INFO RabbitMQClass : Bound incubator.hardware.gpio.fan.on--> amq.gen-f0vsbKAeyfIvu-CJSFseag
+2026-11-02 11:23:35.727 INFO RabbitMQClass : Bound incubator.hardware.gpio.heater.on--> amq.gen-bG_ft2zj0s2q8iRcbMVpag
+2026-11-02 11:23:35.800 INFO RabbitMQClass : Bound incubator.record.#--> amq.gen-rKswagMn6i4FfNfzbOFkNg
+2026-11-02 11:41:18.324 INFO RabbitMQClass : Bound incubator.mock.hw.heater.on--> amq.gen-gZEPs2rYadwZz1VOiBQgMg
+2026-11-02 11:41:18.328 INFO RabbitMQClass : Bound incubator.mock.hw.box.G--> amq.gen-mXf4BbvPf27JqZqeFc_QpA
+2026-11-02 11:41:18.393 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t1--> amq.gen-qY34e5yHnVNO4935pu_VJA
+2026-11-02 11:41:18.401 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t2--> amq.gen-jDy41RcBSm0pSAxVuoBEjw
+2026-11-02 11:41:18.407 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t3--> amq.gen-EnRdG1gaD02s12uZ32mRow
+2026-11-02 11:41:18.417 INFO IncubatorDriver : Connected.
+2026-11-02 11:41:18.423 INFO RabbitMQClass : Bound incubator.hardware.gpio.fan.on--> amq.gen-Nsa3o37TpfiTZUWSar3RMQ
+2026-11-02 11:41:18.426 INFO RabbitMQClass : Bound incubator.hardware.gpio.heater.on--> amq.gen-H6Q-jvlDpbXKfYShuwWMeg
+2026-11-02 11:41:18.496 INFO RabbitMQClass : Bound incubator.record.#--> amq.gen-opSIVxtNbE68nZwT48gBkw
+2026-11-02 11:41:52.148 INFO RabbitMQClass : Bound incubator.mock.hw.heater.on--> amq.gen-1Asy6yOHQp80xGrxhUTyow
+2026-11-02 11:41:52.152 INFO RabbitMQClass : Bound incubator.mock.hw.box.G--> amq.gen-Cw7jShfPQF76ttOHNkPqgQ
+2026-11-02 11:41:52.216 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t1--> amq.gen-oW_zeHj-DrOLnqd9EEif5w
+2026-11-02 11:41:52.228 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t2--> amq.gen-7IG_rf1PJ5KreA0dR_Ij1A
+2026-11-02 11:41:52.236 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t3--> amq.gen-abP13S8xXOoBl1s6zdtxeg
+2026-11-02 11:41:52.244 INFO IncubatorDriver : Connected.
+2026-11-02 11:41:52.248 INFO RabbitMQClass : Bound incubator.hardware.gpio.fan.on--> amq.gen-vPN2lCHXnBZbKofqaSVO2Q
+2026-11-02 11:41:52.251 INFO RabbitMQClass : Bound incubator.hardware.gpio.heater.on--> amq.gen-pO-bdoXX7EZYC--PwEUPsQ
+2026-11-02 11:41:52.328 INFO RabbitMQClass : Bound incubator.record.#--> amq.gen-avFfEUxCw1dC59uizCbF_w
+2026-11-02 11:42:27.483 INFO RabbitMQClass : Bound incubator.mock.hw.heater.on--> amq.gen-5wefIJT8AufVyiKlQO1uAQ
+2026-11-02 11:42:27.487 INFO RabbitMQClass : Bound incubator.mock.hw.box.G--> amq.gen-Q8XlQyOhGAkkceg7GtenaQ
+2026-11-02 11:42:27.550 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t1--> amq.gen-TOYpizEdQ1ar6bLcJzOo8Q
+2026-11-02 11:42:27.562 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t2--> amq.gen-0ObLkxEq30GrMSK39303MQ
+2026-11-02 11:42:27.571 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t3--> amq.gen-oLuYMAsLL4HTdMGee3Y4Jg
+2026-11-02 11:42:27.579 INFO IncubatorDriver : Connected.
+2026-11-02 11:42:27.583 INFO RabbitMQClass : Bound incubator.hardware.gpio.fan.on--> amq.gen-qn7tyd7J4NZChqSamjJZMQ
+2026-11-02 11:42:27.587 INFO RabbitMQClass : Bound incubator.hardware.gpio.heater.on--> amq.gen-7m0KoKXTnR9DVyMkiziDnA
+2026-11-02 11:42:27.657 INFO RabbitMQClass : Bound incubator.record.#--> amq.gen-ctS2ZLU_-psqzWFDV-hEfg
+2026-11-02 11:50:10.499 INFO RabbitMQClass : Bound incubator.mock.hw.heater.on--> amq.gen-tTZgM85p0HCSwV776mYP7g
+2026-11-02 11:50:10.504 INFO RabbitMQClass : Bound incubator.mock.hw.box.G--> amq.gen-9Zs5bU4LL-jpZoLONKcfRA
+2026-11-02 11:50:10.567 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t1--> amq.gen-XkErcUrAURUg6w2sYquwsw
+2026-11-02 11:50:10.581 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t2--> amq.gen-w-w92jy984i37tOiJhrWkQ
+2026-11-02 11:50:10.590 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t3--> amq.gen-l61zKWLkS_7STK7XzOZE0A
+2026-11-02 11:50:10.600 INFO IncubatorDriver : Connected.
+2026-11-02 11:50:10.606 INFO RabbitMQClass : Bound incubator.hardware.gpio.fan.on--> amq.gen-T-pZf_A0EBMDUG4jUBhpfw
+2026-11-02 11:50:10.610 INFO RabbitMQClass : Bound incubator.hardware.gpio.heater.on--> amq.gen--JPW2CbkbmvxS31xSWRfmQ
+2026-11-02 11:50:10.678 INFO RabbitMQClass : Bound incubator.record.#--> amq.gen-h9Vh1NW4WXmmpgwBl0Gt6Q
+2026-11-02 12:38:45.336 INFO RabbitMQClass : Bound incubator.mock.hw.heater.on--> amq.gen-Ru0naSxp_QghNP--cuOP5w
+2026-11-02 12:38:45.341 INFO RabbitMQClass : Bound incubator.mock.hw.box.G--> amq.gen-D8HquD_SgGo_MRGOQ2Z2hg
+2026-11-02 12:38:45.406 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t1--> amq.gen-3wOrKvfIwbmC3Uu4pqP29Q
+2026-11-02 12:38:45.417 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t2--> amq.gen-t8DlAobXmqSzSZuasziJNA
+2026-11-02 12:38:45.424 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t3--> amq.gen-creOpn4RF5yx6dDIzTTU-w
+2026-11-02 12:38:45.433 INFO IncubatorDriver : Connected.
+2026-11-02 12:38:45.436 INFO RabbitMQClass : Bound incubator.hardware.gpio.fan.on--> amq.gen-9GeaecRdzO4Fr8RAxcFXjQ
+2026-11-02 12:38:45.439 INFO RabbitMQClass : Bound incubator.hardware.gpio.heater.on--> amq.gen-lAPFUm9QIbtWa_rA76oxSA
+2026-11-02 12:38:45.508 INFO RabbitMQClass : Bound incubator.record.#--> amq.gen-k4FtoF2c_xo1OMQhJYLdpg
+2026-11-02 12:51:36.510 INFO RabbitMQClass : Bound incubator.mock.hw.heater.on--> amq.gen-68IZlsF_QOZW4pIFuLnxFA
+2026-11-02 12:51:36.514 INFO RabbitMQClass : Bound incubator.mock.hw.box.G--> amq.gen-rxI_7grGlfIlyFnfUU_CWQ
+2026-11-02 12:51:36.579 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t1--> amq.gen-_KYpNXmofTYtEtIcqzmZug
+2026-11-02 12:51:36.588 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t2--> amq.gen-ixYztT5Hk9CNO5g0CywLXw
+2026-11-02 12:51:36.595 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t3--> amq.gen-q9QT4uVUAUptMYaKNQKsOg
+2026-11-02 12:51:36.606 INFO IncubatorDriver : Connected.
+2026-11-02 12:51:36.611 INFO RabbitMQClass : Bound incubator.hardware.gpio.fan.on--> amq.gen-PL-bs36c7tTGo3ecpG4b-A
+2026-11-02 12:51:36.614 INFO RabbitMQClass : Bound incubator.hardware.gpio.heater.on--> amq.gen-P3xNR9LxJqebiMaWnTMt0w
+2026-11-02 12:51:36.686 INFO RabbitMQClass : Bound incubator.record.#--> amq.gen-rMzsikBH-OipD82kJIu_Uw
+2026-11-02 13:00:41.372 INFO RabbitMQClass : Bound incubator.mock.hw.heater.on--> amq.gen-2MnKBBUq4RHjDiYAgAf-zA
+2026-11-02 13:00:41.376 INFO RabbitMQClass : Bound incubator.mock.hw.box.G--> amq.gen-LPqMmfmdKsvYwhoYsw3yBg
+2026-11-02 13:00:41.442 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t1--> amq.gen-R0aKAYaM_kxtDR7VfudxLg
+2026-11-02 13:00:41.450 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t2--> amq.gen-BpmoJ2Uw88Xu5tdthAsmtQ
+2026-11-02 13:00:41.457 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t3--> amq.gen-pnV-d3cf2cgcQSzYEr8PfA
+2026-11-02 13:00:41.468 INFO IncubatorDriver : Connected.
+2026-11-02 13:00:41.472 INFO RabbitMQClass : Bound incubator.hardware.gpio.fan.on--> amq.gen-JyRkuVtSQQlJIGYmnnnDYQ
+2026-11-02 13:00:41.476 INFO RabbitMQClass : Bound incubator.hardware.gpio.heater.on--> amq.gen-W4czx12qC0-lsIxOBU3DYw
+2026-11-02 13:00:41.543 INFO RabbitMQClass : Bound incubator.record.#--> amq.gen-yhemt63R_7Sshi7QgM0JZg
+2026-11-02 13:03:32.065 INFO RabbitMQClass : Bound incubator.mock.hw.heater.on--> amq.gen-bjgjLf4O1abJdrLwS0SvJg
+2026-11-02 13:03:32.071 INFO RabbitMQClass : Bound incubator.mock.hw.box.G--> amq.gen-Eq8O_qoKVKrtw7Z_NA66Vg
+2026-11-02 13:03:32.129 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t1--> amq.gen-Wiys2FEV5IPreUdn8O9r3A
+2026-11-02 13:03:32.137 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t2--> amq.gen-m7HuKeyM8JZgE2USff3bmA
+2026-11-02 13:03:32.146 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t3--> amq.gen-1XRqGbkv5_IDo8RYSBU9Ag
+2026-11-02 13:03:32.156 INFO IncubatorDriver : Connected.
+2026-11-02 13:03:32.161 INFO RabbitMQClass : Bound incubator.hardware.gpio.fan.on--> amq.gen-pYJi8kw0ire5iJyQsOGttQ
+2026-11-02 13:03:32.164 INFO RabbitMQClass : Bound incubator.hardware.gpio.heater.on--> amq.gen-WtnuVm53M2UjALscdO9qrA
+2026-11-02 13:03:32.232 INFO RabbitMQClass : Bound incubator.record.#--> amq.gen-eU4HtUevIZ9Q2Xui5_LE9w
+2026-11-02 13:10:47.078 INFO RabbitMQClass : Bound incubator.mock.hw.heater.on--> amq.gen-FMPS3m2fkMJskQzkV09EiQ
+2026-11-02 13:10:47.083 INFO RabbitMQClass : Bound incubator.mock.hw.box.G--> amq.gen-lhoSkFTLeytd3jxg1ou-4w
+2026-11-02 13:10:47.144 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t1--> amq.gen-AxEyjYHMWzUYhNteyoK0mQ
+2026-11-02 13:10:47.154 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t2--> amq.gen-UQgrgweuNsuKs3da7AQh-g
+2026-11-02 13:10:47.163 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t3--> amq.gen-8pl-2LUKDSB3ovHwvOBEPQ
+2026-11-02 13:10:47.171 INFO IncubatorDriver : Connected.
+2026-11-02 13:10:47.174 INFO RabbitMQClass : Bound incubator.hardware.gpio.fan.on--> amq.gen-MAx_eZvJ1F3aTOXkRW_3tA
+2026-11-02 13:10:47.177 INFO RabbitMQClass : Bound incubator.hardware.gpio.heater.on--> amq.gen-yoQ7Z-9Ye8O4JUBD9z93zw
+2026-11-02 13:10:47.245 INFO RabbitMQClass : Bound incubator.record.#--> amq.gen-HCt8jvk7W0TFB4UnR454KA
