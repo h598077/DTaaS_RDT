@@ -4,12 +4,12 @@ stages:
     
 
 
-incubator-plain:
+incubator-rdt:
   stage: create
   tags:
     - $RunnerTag
   script:
-    - cd digital_twins/incubator-plain
+    - cd digital_twins/incubator-rdt
     - chmod +x lifecycle/create 
     - lifecycle/create
 
