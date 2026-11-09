@@ -2,7 +2,7 @@
 set -e  # Exit on error
 
 # Base relative paths off lifecycle dir
-#cd "$(dirname "${BASH_SOURCE[0]}")"
+
 
 # ----------------- Start fuseki
 #bash fusekistart
@@ -14,10 +14,11 @@ set -e  # Exit on error
 LIFECYCLE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 INCUBATOR_PATH="${LIFECYCLE_DIR}/../Data/incubator"
+
 echo "Using INCUBATOR_PATH: ${INCUBATOR_PATH}"  # debug path
   
-pwd
 # Copy simulation.conf into incubator
+cd "$(dirname "${BASH_SOURCE[0]}")"
 cp ../simulation.conf "${INCUBATOR_PATH}/simulation.conf"
 
 cd "${INCUBATOR_PATH}"
