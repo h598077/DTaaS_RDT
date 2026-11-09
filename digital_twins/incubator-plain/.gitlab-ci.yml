@@ -1,0 +1,23 @@
+stages:
+    - create
+    - execute
+
+
+create_incubator-plain:
+    stage: create
+    script:
+        - cd digital_twins/incubator-plain
+        - chmod +x lifecycle/create
+        - lifecycle/create
+    tags:
+        - $RunnerTag
+
+
+execute_incubator-plain:
+    stage: execute
+    script:
+        - cd digital_twins/incubator-plain
+        - chmod +x lifecycle/execute
+        - lifecycle/execute
+    tags:
+        - $RunnerTag

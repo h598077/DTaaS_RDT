@@ -1,0 +1,18 @@
+2026-11-02 06:47:42.910 INFO RabbitMQClass : Bound incubator.mock.hw.heater.on--> amq.gen-IeCRgqAQllRmyXFXtleosg
+2026-11-02 06:47:42.915 INFO RabbitMQClass : Bound incubator.mock.hw.box.G--> amq.gen-h9isvQyN1b1_FlDT0gXztg
+2026-11-02 06:47:42.990 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t1--> amq.gen-WiFWF2Q8oZbyegYfZVPteg
+2026-11-02 06:47:43.004 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t2--> amq.gen-UHIcNPPMt_bVtmA2DBNWKA
+2026-11-02 06:47:43.019 INFO RabbitMQClass : Bound incubator.mock.hw.temperature.t3--> amq.gen-NnneBBkclNEYos5uwg3new
+2026-11-02 06:47:43.040 INFO IncubatorDriver : Connected.
+2026-11-02 06:47:43.045 INFO RabbitMQClass : Bound incubator.hardware.gpio.fan.on--> amq.gen-DlrkD6p18sAxadsUTKrp0A
+2026-11-02 06:47:43.049 INFO RabbitMQClass : Bound incubator.hardware.gpio.heater.on--> amq.gen-VdMrPNd1CQB_NBg7Fgaeaw
+2026-11-02 06:47:43.128 INFO RabbitMQClass : Bound incubator.record.#--> amq.gen-Y-rG10N0snbMyl-AH20XXw
+2026-11-02 06:47:43.262 INFO RabbitMQClass : Bound incubator.record.driver.state--> amq.gen-0RDGjpZRpUNZWWdm6aAaFw
+2026-11-02 06:47:43.269 INFO RabbitMQClass : Bound incubator.update.kalmanfilter.4params--> amq.gen-w5rO7jnL5lZOlH9dzXgaVg
+2026-11-02 06:47:43.356 INFO RabbitMQClass : Bound incubator.update.closed_loop_controller.parameters--> amq.gen-t1_wQc7G9oQI5PnKq14-8A
+2026-11-02 06:47:43.363 INFO RabbitMQClass : Bound incubator.record.driver.state--> amq.gen-0YeD_mg_DieaipoDiGqj1Q
+2026-11-02 06:47:43.436 INFO RabbitMQClass : Bound incubator.energysaver.enable--> amq.gen-9aZsL1uHVynQ55yAFdxOVw
+2026-11-02 06:47:43.443 INFO RabbitMQClass : Bound incubator.energysaver.pub_energy_saver--> amq.gen-o2nCAaUdJaDFn2Wler2rvg
+2026-11-02 06:47:43.449 INFO RabbitMQClass : Bound incubator.record.kalmanfilter.plant.state--> amq.gen-jaL1nyIDv2tg7ir0kfMduA
+2026-11-02 06:47:43.455 INFO RabbitMQClass : Bound incubator.diagnosis.plant.lidopen--> amq.gen-iml_5TXiesVJz3gCKYfP7w
+2026-11-02 06:54:48.958 WARNING ControllerPhysical : Stopping controller
