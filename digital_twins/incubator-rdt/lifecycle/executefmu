@@ -50,7 +50,7 @@ build_fmu() {
     make clean
     make all
 
-    cp "$FMU_FILE" "$SOURCE_DIR/.."
+    cp "$FMU_FILE" "$SOURCE_DIR/"
 
     rm -rf "$BUILD_DIR"
 }
