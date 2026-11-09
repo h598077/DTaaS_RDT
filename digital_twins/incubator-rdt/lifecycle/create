@@ -34,6 +34,7 @@ FMU_DIR="${LIFECYCLE_DIR}/../Data/ruleless-digital-twins/SmartNode/Implementatio
 python -m pip install -r ${FMU_DIR}/Fakepool-FMU/requirements.txt
 python -m pip install -r ${FMU_DIR}/Nordpool-FMU/requirements.txt
 python -m pip install -r ${FMU_DIR}/Yr-Weather-FMU/requirements.txt
+python -m pip install pythonfmu
 
 
 
