@@ -1,5 +1,0 @@
-/workspaces/ruleless-digital-twins/SmartNode/Implementations/FMUs/PythonFMU/build/CMakeFiles/edit_cache.dir
-/workspaces/ruleless-digital-twins/SmartNode/Implementations/FMUs/PythonFMU/build/CMakeFiles/rebuild_cache.dir
-/workspaces/ruleless-digital-twins/SmartNode/Implementations/FMUs/PythonFMU/build/src/CMakeFiles/pythonfmu-export.dir
-/workspaces/ruleless-digital-twins/SmartNode/Implementations/FMUs/PythonFMU/build/src/CMakeFiles/edit_cache.dir
-/workspaces/ruleless-digital-twins/SmartNode/Implementations/FMUs/PythonFMU/build/src/CMakeFiles/rebuild_cache.dir
