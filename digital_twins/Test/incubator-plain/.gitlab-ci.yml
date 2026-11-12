@@ -1,0 +1,17 @@
+stages:
+    - create-execute
+
+    
+
+
+incubator-plain:
+  stage: create-execute
+  tags:
+    - docker
+  script:
+    - cd digital_twins/incubator-plain
+    - chmod +x lifecycle/create 
+    - lifecycle/create
+    - chmod +x  lifecycle/execute
+    - lifecycle/execute
+
