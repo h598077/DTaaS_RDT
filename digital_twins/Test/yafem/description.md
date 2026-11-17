@@ -1,1 +1,0 @@
-YaFEM is an open-source finite element software

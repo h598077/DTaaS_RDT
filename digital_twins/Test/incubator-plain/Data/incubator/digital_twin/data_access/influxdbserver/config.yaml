@@ -1,3 +1,0 @@
-ï»¿query-concurrency: 20
-bolt-path: /var/lib/influxdb/influxd.bolt
-engine-path: /var/lib/influxdb/engine
