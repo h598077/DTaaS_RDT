@@ -54,3 +54,13 @@ trigger_Test:
       when: always
   variables:
     RunnerTag: $RunnerTag
+
+trigger_incubator-rdt_test:
+  stage: triggers
+  trigger:
+    include: digital_twins/incubator-rdt_test/.gitlab-ci.yml
+  rules: 
+    - if: '$DTName == "incubator-rdt_test"'
+      when: always
+  variables:
+    RunnerTag: $RunnerTag
