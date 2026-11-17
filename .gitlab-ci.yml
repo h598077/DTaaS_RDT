@@ -1,5 +1,8 @@
 image: fedora:41
 
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+
 stages:
   - triggers
 
