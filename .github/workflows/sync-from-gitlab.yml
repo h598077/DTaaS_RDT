@@ -26,5 +26,5 @@ jobs:
           git fetch gitlab main:refs/remotes/gitlab/main --tags
       - name: Push changes to GitHub
         run: |
-          git push origin refs/remotes/gitlab/main:refs/heads/main
-          git push origin --tags
+          git push origin refs/remotes/gitlab/main:refs/heads/main --force
+          git push origin --tags --force
