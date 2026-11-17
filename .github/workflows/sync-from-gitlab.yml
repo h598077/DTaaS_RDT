@@ -1,3 +1,9 @@
+name: Sync GitLab to GitHub
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"  # Every 15 minutes
+  workflow_dispatch:        # Manual trigger
 
 permissions:
   contents: write
