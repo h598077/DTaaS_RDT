@@ -2,9 +2,10 @@ stages:
     - create
 
     
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
 
-
-incubator-rdt:
+incubator-rdt_test:
   stage: create
   tags:
     - docker
