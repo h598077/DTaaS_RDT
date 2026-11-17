@@ -30,4 +30,8 @@ dotnet build \
 
 export AU_INCUBATOR_RABBITMQ_HOST_NAME=localhost  #   RabbitMQ host ip
 
+apt-get update && apt-get install -y unzip
+unzip -l au_incubator.fmu | grep -i binaries
+unzip -p au_incubator.fmu modelDescription.xml | head -40
+
 dotnet bin/Debug/net8.0/SmartNode.dll --appsettings appsettings-incubator.json
