@@ -1,0 +1,4 @@
+
+[submodule "digital_twins/incubator-rdt_test/Data/ruleless-digital-twins"]
+	path = digital_twins/incubator-rdt_test/Data/ruleless-digital-twins
+	url = https://github.com/ivanspajic/ruleless-digital-twins.git

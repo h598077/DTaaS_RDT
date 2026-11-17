@@ -1,0 +1,26 @@
+stages:
+    - create
+
+    
+
+
+incubator-rdt:
+  stage: create
+  tags:
+    - docker
+  script:
+    - cd digital_twins/incubator-rdt_test
+    - chmod +x lifecycle/create 
+    - lifecycle/create 
+    - chmod +x lifecycle/executefmu
+    - lifecycle/executefmu
+    - chmod +x lifecycle/execute lifecycle/execute2
+    - lifecycle/execute &
+    - EXECUTE_PID=$!
+    - sleep 10
+    - lifecycle/execute2 
+
+
+
+
+

@@ -1,0 +1,33 @@
+#!/bin/bash
+set -e  # Exit on error
+
+
+
+
+# ---  Build + run RDT incubator 
+DOTNET_ROOT="/tmp/dotnet"
+export DOTNET_ROOT
+export PATH="$DOTNET_ROOT:$PATH"
+
+
+
+# Go to script directory 
+LIFECYCLE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+
+
+# Path to SmartNode project (adjust if different)
+SMARTNODE_PATH="${LIFECYCLE_DIR}/../Data/ruleless-digital-twins/SmartNode/SmartNode/"
+
+echo "Using SMARTNODE_PATH: ${SMARTNODE_PATH}"
+
+cd "${SMARTNODE_PATH}"
+
+echo "Building SmartNode..."
+dotnet build \
+  -p:IntermediateOutputPath=/tmp/smartnode-obj/ \
+  -p:DisableFastUpToDateCheck=true
+
+export AU_INCUBATOR_RABBITMQ_HOST_NAME=localhost  #   RabbitMQ host ip
+
+dotnet bin/Debug/net8.0/SmartNode.dll --appsettings appsettings-incubator.json

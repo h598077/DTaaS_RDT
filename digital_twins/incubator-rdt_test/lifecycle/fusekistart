@@ -1,0 +1,9 @@
+# --- 1. Start Fuseki
+LIFECYCLE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+devcontainer="${LIFECYCLE_DIR}/../Data/ruleless-digital-twins/devcontainer"
+cd "${devcontainer}"
+pwd
+bash start-fuseki.sh
+echo "fuseki started"
+
+
